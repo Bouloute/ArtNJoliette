@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux'
 import {findArtById} from '../actions/artActions'
-import CustomComponent from './Dot.js'
-import Dot from 'react-connect-the-dots';
 
 import Puzzle from 'react-image-puzzle';
 
@@ -55,22 +53,6 @@ class Quizz extends Component {
                         image={this.props.image_url}
                         onDone={this.correctAnswer}
                     />
-                    <div className="relative-position-container">
- 
- <Dot pair="a-b" connector={(props) => <div className="sweet-line" {...props} />}>
-   {(ref) => <CustomComponent className="position-top-left" getRef={ref} />}
- </Dot>
-
- <Dot pair="b-c" connector={(props) => <div className="sweet-line thicc" {...props} />}>
-   <Dot pair="a-b">
-     {(ref) => <CustomComponent className="position-bottom-left" getRef={ref} />}
-   </Dot>
- </Dot>
-
- <Dot pair="b-c">
-   {(ref) => <CustomComponent className="position-bottom-right" getRef={ref} />}
- </Dot>
-</div>
                 </div>
             </div>
         );
