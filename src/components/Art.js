@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux'
 import {findArtById} from '../actions/artActions'
+import artists from '../png/005-artist.png';
 
 import audio from '../png/272168__dethrok__cicadas.wav';
 
@@ -14,7 +15,12 @@ class Art extends Component {
         this.props.findArtById(this.props.match.params.id)
 
     }
-        
+
+    getImage = () => {
+
+        return artists
+    }
+
     render() { 
         if(!!this.props.artist) {
             return (
@@ -24,7 +30,7 @@ class Art extends Component {
                     <div className="art">
                         <div class="art-cell">
                             <div class="art-img">
-                                <img src={this.props.image_url} alt={this.state.name}/>
+                                <img src={this.getImage()} alt={this.state.name}/>
                             </div>
                             <div class="art-content">
                                 <h2>{this.props.name}</h2>
