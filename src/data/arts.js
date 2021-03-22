@@ -1,7 +1,7 @@
 export const arts = [
     {
         "id": 1,
-        "name": "Ourse Biface",
+        "name": "Ours Biface",
         "description": "Ourse orange biface au bord de la mer",
         "image_url": "../png/001-videogame.png",
         "enigma": "Ceci est un test. Les bonnes reponses sont: ours et ourse",
