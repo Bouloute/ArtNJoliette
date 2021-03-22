@@ -58,7 +58,7 @@ export const artists = [
     {
         "id": 1,
         "name": "Bruno Catalano",
-        "description": "Bruno Catalano est sculpteur français né à Khouribga au Maroc en 1960.",
+        "description": "Bruno Catalano est un artiste sculpteur français né à Khouribga en 1960. En 1970 sa famille quitte le Maroc pour aller s’installer en France où il travaille en tant que marin pour la société nationale maritime Corse-Méditerranée durant 4 ans. C’est à travers cette expérience qu’il trouvera par la suite ses inspirations artistiques. Il s’initie ensuite à la sculpture à Marseille en 1981 où il pratique une formation de modelage et de dessin. Puis ouvre son atelier en 1985 en y aménageant un four afin de cuire ses premières figures en argile. Bruno Catalano réalise de grandes sculptures en bronze assez conventionnelles qui se transforment et deviennent de plus en plus expressives au fil de ses créations. En 2004 il créer une faille involontaire dans l’une de ses sculptures représentant Cyrano. Cette erreur lui donne l’idée de retirer la poitrine du personnage et d’y laisser un vide. S’ensuit alors une nouvelle méthode de création artistique. Il réalise ensuite toute une série de personnes marquées par des failles. En 2013 il expose à l’occasion de l’année de la Capitale Européenne de la Culture à Marseille des sculptures de personnage à taille humaine sur le port de la ville. Dont l’œuvre « Bleu de Chine ». Ses sculptures représentant des manques, des erreurs, des failles font aujourd’hui régulièrement l’objet d’expositions dans le monde entier.",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fourse.jpg?alt=media&token=92778884-ff46-42a4-9d35-126afd0fbc74",
         "art": {
             "id": 4
@@ -67,7 +67,7 @@ export const artists = [
     {
         "id": 2,
         "name": "Ipin",
-        "description": "Fresque",
+        "description": "Ipin alias Germain Prevost est un street artiste français né à Reims en 1981. Ipin, c’est la contraction de “il peint” et c’est ce que commence à faire régulièrement l’artiste au début des années 2000 dans des friches industrielles de La Ciotat tout en menant un master en Environnement et Société. Se formant seul à l’art et inspiré de divers artistes comme Vasarely et ses formes géométriques ou EastEric, Ipin cherche la rupture dans les espaces publics, là où le linéaire débloque et propose à travers ces œuvres un regard engagé sur notre environnement. En 2017, il initie la création du “MUR du fond” à La Cité des Arts de la Rue à Marseille : un grand mur qui laisse libre court à l’imagination et l'expérimentation d’un artiste le temps d’une soirée. Aujourd’hui éloigné des codes du graffiti, Ipin s’axe autour de l’art conceptuel et nous fait découvrir de nouvelles notions comme l’impactivisme (auto-proclamé) : “la forme la plus basique de réappropriation graphique de l’espace public. En quelque sorte, un graffiti déshabillé de tout apparat décoratif, pour n’en garder que les composantes essentielles : un mouvement, une couleur, une forme et un support.”",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
         "art": {
             "id": 3
