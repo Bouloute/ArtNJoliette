@@ -1,7 +1,7 @@
 export const arts = [
     {
         "id": 1,
-        "name": "Ourse Biface",
+        "name": "Ours Biface",
         "description": "Ourse orange biface au bord de la mer",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fourse.jpg?alt=media&token=92778884-ff46-42a4-9d35-126afd0fbc74",
         "enigma": "Ceci est un test. Les bonnes reponses sont: ours et ourse",
