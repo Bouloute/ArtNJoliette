@@ -34,7 +34,7 @@ export const arts = [
         "description_audio": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2Fm%C3%A9diation%20ipin%20.mp3?alt=media&token=7cef89de-da51-4bee-a9ea-a58e5a1b68e7",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2F143000436_232308558490095_5211856471468779632_n.jpg?alt=media&token=d79eaab9-7c0e-40cd-947a-c90119d7a68b",
         "enigma": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2Ftomygris.mp3?alt=media&token=484aa1e3-a364-4476-a4aa-706f8b641c3d",
-        "enigma_type": "audio",
+        "enigma_type": "Audio",
         "answers": "Seconde Vie, seconde vie, Seconde vie, seconde Vie",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1451.6902399761411!2d5.365507658201738!3d43.306293994783665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c0ee9560ef01%3A0xebe89f1d6ddb7d14!2sQ-Park%20Les%20Docks%20-%20arvieux!5e0!3m2!1sen!2sus!4v1616206799296!5m2!1sen!2sus",        "artist": {
             "id": 2,
