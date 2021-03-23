@@ -31,9 +31,11 @@ export const arts = [
         "id": 3,
         "name": "Seconde Vie",
         "description": "A l’origine, cette œuvre commandée par Euroméditerranée en 2010, était celle de Miguel Chevalier, artiste digital, et Charles Bové, designer. Nommée Seconde Nature, cette sculpture inclinée était constituée d’une statue d’acier de 18 mètres de haut et de 3 vidéoprojecteurs. Une œuvre hybride, mêlant réel et virtuel, qui projetait sur la façade des docks la flore méditerranéenne évoluant au fil des saisons. Les promeneurs pouvaient découvrir tantôt des palmiers, tantôt des plantes grasses, qui s’inclinaient à leur passage. Flamboyante et enroulée sur elle-même, la statue évoque la forme d’un coquillage, le vent qui s'engouffre dans la voile des bateaux. Au fur et à mesure, la sculpture s’est dégradée, œuvre du temps ou des tags des passants. Le duo d’artistes a alors demandé à l’association Planètes Émergences, qui aide à la réhabilitation d’espaces communs en leur apportant une touche artistique, de lancer un appel à projet pour restaurer l'œuvre, lui donner un nouveau souffle, une Seconde Vie. Ipin, street artiste, s’intègre au projet et décide de s’inspirer de la \"lutte anti graffiti\" qui court les rues : une pratique des politiques urbaines qui consiste à recouvrir les graffitis par l'application d'une couche de peinture de teinte plus ou moins proche de la couleur originelle du mur. Jouant avec les tags présents et les “patchs” de peinture imposés par la municipalité pour les dissimuler, il crée une mosaïque de carrés orange qui s’élève et s’organise. Les œuvres d’art sont le reflet d’un territoire. A l’image du quartier, Seconde Nature devenue Seconde Vie n’a cessé de se métamorphoser. Qui sait ce qu’elle deviendra ? ",
+        "description_audio": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2Fm%C3%A9diation%20ipin%20.mp3?alt=media&token=7cef89de-da51-4bee-a9ea-a58e5a1b68e7",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2F143000436_232308558490095_5211856471468779632_n.jpg?alt=media&token=d79eaab9-7c0e-40cd-947a-c90119d7a68b",
-        "enigma": "Ceci est un test. Les bonnes reponses sont: a, b et c",
-        "answers": "a, b, c",
+        "enigma": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2Ftomygris.mp3?alt=media&token=484aa1e3-a364-4476-a4aa-706f8b641c3d",
+        "enigma_type": "audio",
+        "answers": "Seconde Vie, seconde vie, Seconde vie, seconde Vie",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1451.6902399761411!2d5.365507658201738!3d43.306293994783665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c0ee9560ef01%3A0xebe89f1d6ddb7d14!2sQ-Park%20Les%20Docks%20-%20arvieux!5e0!3m2!1sen!2sus!4v1616206799296!5m2!1sen!2sus",        "artist": {
             "id": 2,
             "name": "Ipin alias Germain"
@@ -44,8 +46,8 @@ export const arts = [
         "name": "Bleu de Chine",
         "description": "Statue",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F142333638_814197942645417_8376132969989383353_n.jpg?alt=media&token=eb86a82c-9dda-4da3-8fda-401ddba74aec",
-        "enigma": "Ceci est un test. Les bonnes reponses sont: azerty et azert",
-        "answers": "azerty, azert",
+        "enigma": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F164151580_202490001210117_4685249725074018271_n.jpg?alt=media&token=8d68a953-266a-4c6b-95c0-b6bd21974e59",
+        "enigma_type": "Puzzle",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.7339445360412!2d5.361296915491653!3d43.298893079135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c0c2c6b19e5f%3A0xe693936cd108d2b6!2sBoulevard%20Jacques%20Saade%2C%2013002%20Marseille%2C%20France!5e0!3m2!1sen!2sus!4v1611855036218!5m2!1sen!2sus",
         "artist": {
             "id": 1,
@@ -68,6 +70,7 @@ export const artists = [
         "id": 2,
         "name": "Ipin",
         "description": "Ipin alias Germain Prevost est un street artiste français né à Reims en 1981. Ipin, c’est la contraction de “il peint” et c’est ce que commence à faire régulièrement l’artiste au début des années 2000 dans des friches industrielles de La Ciotat tout en menant un master en Environnement et Société. Se formant seul à l’art et inspiré de divers artistes comme Vasarely et ses formes géométriques ou EastEric, Ipin cherche la rupture dans les espaces publics, là où le linéaire débloque et propose à travers ces œuvres un regard engagé sur notre environnement. En 2017, il initie la création du “MUR du fond” à La Cité des Arts de la Rue à Marseille : un grand mur qui laisse libre court à l’imagination et l'expérimentation d’un artiste le temps d’une soirée. Aujourd’hui éloigné des codes du graffiti, Ipin s’axe autour de l’art conceptuel et nous fait découvrir de nouvelles notions comme l’impactivisme (auto-proclamé) : “la forme la plus basique de réappropriation graphique de l’espace public. En quelque sorte, un graffiti déshabillé de tout apparat décoratif, pour n’en garder que les composantes essentielles : un mouvement, une couleur, une forme et un support.”",
+        "description_audio": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2FBiographie%20ipin.mp3?alt=media&token=01f66af5-fae0-4912-959c-20105f708d10",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
         "art": {
             "id": 3
