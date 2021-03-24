@@ -80,8 +80,6 @@
     padding: 20px;
     background-color: rgb(191, 227, 250);
     border-radius: 7px;
-
-    text-align: center;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: -0.05em;
@@ -128,6 +126,7 @@
     padding-left: 10px;
     color: #fff;
     overflow: hidden;
+    text-align: center;
 }
 
 .art-sum {
@@ -140,4 +139,49 @@
     margin: auto;
     width: 300px;
     margin-top: 150px;
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 50%;
+    border-radius: 3px 0 0 3px;
+    margin-right: 5px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.labyrinth {
+    background: url("https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fmaze.jpg?alt=media&token=d3917a67-0906-4871-97ee-855a8d0d0f0a") no-repeat;
+    background-size: 100%;
+}
+
+div.react-pattern-lock__point-inner {
+    background: grey;
+    border-radius: 50%;
+}
+
+div.react-pattern-lock__connector {
+    background: grey;
 }
