@@ -3,10 +3,14 @@ import {connect} from 'react-redux'
 import {findArtById} from '../actions/artActions'
 
 import Puzzle from 'react-image-puzzle';
+import PatternLock from "react-pattern-lock";
 
 class Quizz extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            drawn_path: []
+        }
         this.props.findArtById(this.props.match.params.id)
     }
     
@@ -22,7 +26,6 @@ class Quizz extends Component {
         //TODO case sensetive
         const correctAnswers = this.props.answers.split(', ')
         if (!!! correctAnswers.find(correctAnswer => correctAnswer === this.state.answer)) {
-            console.log("incorrect")
             document.getElementsByTagName('input')[0].style.color = 'red'
         }
         else {
@@ -34,8 +37,13 @@ class Quizz extends Component {
         window.location.pathname = "/art/" + this.props.match.params.id
     }
 
+    onDrawReset = () => {
+        this.setState({
+            drawn_path: []
+        });
+    };
+
     renderEnigmaFromType = (type) => {
-        console.log(type)
         switch(type) {
             case "Puzzle":
                 return(
@@ -58,6 +66,27 @@ class Quizz extends Component {
                             <input name="answer" type="text" placeholder="Ma Réponse" onChange={this.handleChange}></input>
                             <button>Entrez</button>
                         </form>
+                    </div>
+                )
+            case "Labyrinth": 
+                return(
+                    <div className="labyrinth">
+                        <PatternLock
+                            size={ 5 }
+                            path={ this.state.drawn_path }
+                            onChange={ (pattern) => {
+                                this.setState({ drawn_path : pattern });
+                                console.log(this.state.drawn_path.join("-"))
+                            }}
+                            onFinish={() => {
+                                if (this.state.drawn_path.join("-") === "3-2-1-0-5-10-15-16-17-22-21") {
+                                    this.correctAnswer()
+                                } else {
+                                    console.log("START AGAIN")
+                                    this.onDrawReset();
+                                }
+                            }}
+                        />
                     </div>
                 )
             default:

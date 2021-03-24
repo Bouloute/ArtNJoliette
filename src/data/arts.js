@@ -4,11 +4,9 @@ export const arts = [
         "name": "Ours Biface",
         "description": "Ourse orange biface au bord de la mer",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fourse.jpg?alt=media&token=92778884-ff46-42a4-9d35-126afd0fbc74",
-        "enigma": "Ceci est un test. Les bonnes reponses sont: ours et ourse",
-        "answers": "ours, ourse, Ours, Ourse",
+        "enigma": "Ceci est un test.",
+        "enigma_type": "Labyrinth",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.825128806022!2d5.36035711549159!3d43.29698367913515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c13e9876806d%3A0x575fa16048e0502d!2sEsplanade%20du%20J4!5e0!3m2!1sen!2sus!4v1611776148724!5m2!1sen!2sus",
-        "created_at": "2021-01-28T17:35:59.482Z",
-        "updated_at": "2021-01-28T17:35:59.550Z",
         "artist": {
             "id": 4,
             "name": "Jayet"
