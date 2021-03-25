@@ -69,7 +69,7 @@ export const artists = [
         "name": "Ipin",
         "description": "Ipin alias Germain Prevost est un street artiste français né à Reims en 1981. Ipin, c’est la contraction de “il peint” et c’est ce que commence à faire régulièrement l’artiste au début des années 2000 dans des friches industrielles de La Ciotat tout en menant un master en Environnement et Société. Se formant seul à l’art et inspiré de divers artistes comme Vasarely et ses formes géométriques ou EastEric, Ipin cherche la rupture dans les espaces publics, là où le linéaire débloque et propose à travers ces œuvres un regard engagé sur notre environnement. En 2017, il initie la création du “MUR du fond” à La Cité des Arts de la Rue à Marseille : un grand mur qui laisse libre court à l’imagination et l'expérimentation d’un artiste le temps d’une soirée. Aujourd’hui éloigné des codes du graffiti, Ipin s’axe autour de l’art conceptuel et nous fait découvrir de nouvelles notions comme l’impactivisme (auto-proclamé) : “la forme la plus basique de réappropriation graphique de l’espace public. En quelque sorte, un graffiti déshabillé de tout apparat décoratif, pour n’en garder que les composantes essentielles : un mouvement, une couleur, une forme et un support.”",
         "description_audio": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2FBiographie%20ipin.mp3?alt=media&token=01f66af5-fae0-4912-959c-20105f708d10",
-        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
+        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2FPortrait-IPIN-by-Vincent-Muteau-480x320.jpg?alt=media&token=3c93e512-ffa5-4b54-bc8e-5e8257d0c369",
         "art": {
             "id": 3
         }
@@ -78,7 +78,7 @@ export const artists = [
         "id": 3,
         "name": "Astro",
         "description": "Astro est un street artiste français né à Sarcelles en 1981.",
-        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
+        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2FAstro-10.jpg?alt=media&token=e0ec3875-8cbe-4ade-9ff6-e489ead71abf",
         "art": {
             "id": 2
         }
@@ -87,7 +87,7 @@ export const artists = [
         "id": 4,
         "name": "Jayet",
         "description": "",
-        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
+        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fjayet.jpg?alt=media&token=1075392b-17e1-4574-b75e-941349be093e",
         "art": {
             "id": 1
         }

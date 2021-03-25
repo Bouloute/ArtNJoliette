@@ -30,7 +30,10 @@ class Artist extends Component {
                                 <div class="art-sum">
                                     {this.props.description}
                                 </div>
-        
+                                {!!this.props.description_audio?<audio
+                                    src={this.props.description_audio}
+                                    controls
+                                />:null}
                             </div>
                         </div>
                     </div>
