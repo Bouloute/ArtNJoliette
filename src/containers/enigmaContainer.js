@@ -14,7 +14,7 @@ class enigmaContainer extends Component {
     
     renderEnigmas = () => {
         // TODO: art.name => art.enigma_name
-        return this.props.arts.map(art => <Enigma key={art.id} title={art.name} status="" id={art.id}/>)
+        return this.props.arts.map(art => <Enigma key={art.id} title={art.name} status="" url={"/enigmas/" + art.id}/>)
     }
 
     render() {

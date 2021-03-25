@@ -8,6 +8,7 @@ import {
 
 import Home from "./components/Home"
 import enigmaContainer from "./containers/enigmaContainer";
+import artistsContainer from "./containers/artistsContainer";
 import Quizz from "./components/Quizz";
 import Art from "./components/Art";
 import Artist from "./components/Artist";
@@ -28,6 +29,7 @@ class App extends Component {
           <Route exact path="/enigmas" component={enigmaContainer} />
           <Route exact path="/enigmas/:id" component={Quizz} />
           <Route exact path="/art/:id" component={Art} />
+          <Route exact path="/artists" component={artistsContainer} />
           <Route exact path="/artists/:id" component={Artist} />
         </Router>
             

@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom'
 
 const Enigma = (props) => {
     return (
-        <NavLink className="enigma" to={"/enigmas/" + props.id}>
+        <NavLink className="enigma" to={props.url}>
             <div className={"enigma-title " + props.status}>
                 <h2>
                     {props.title}
