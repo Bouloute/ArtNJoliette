@@ -10,6 +10,7 @@ import Home from "./components/Home"
 import enigmaContainer from "./containers/enigmaContainer";
 import Quizz from "./components/Quizz";
 import Art from "./components/Art";
+import Artist from "./components/Artist";
 import { NavLink } from 'react-router-dom/cjs/react-router-dom.min';
 
 class App extends Component {
@@ -27,6 +28,7 @@ class App extends Component {
           <Route exact path="/enigmas" component={enigmaContainer} />
           <Route exact path="/enigmas/:id" component={Quizz} />
           <Route exact path="/art/:id" component={Art} />
+          <Route exact path="/artists/:id" component={Artist} />
         </Router>
             
       </div>

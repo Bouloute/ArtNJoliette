@@ -137,8 +137,7 @@ class Quizz extends Component {
 }
 
 const mapsStateToProps = (state) => {
-    //TODO refator to collect only the reducer
-    return state.art
+    return state.artReducers.art
 }
 
 export default connect(mapsStateToProps, {findArtById})(Quizz);

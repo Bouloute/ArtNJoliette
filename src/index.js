@@ -5,10 +5,10 @@ import App from './App';
 import {createStore, applyMiddleware} from 'redux'
 import {Provider} from 'react-redux'
 import thunk from "redux-thunk"
-//TODO import rootReducer from './reducers/index';
-import artReducer from "./reducers/artReducers"
 
-let store = createStore(artReducer, applyMiddleware(thunk))
+import rootReducer from './reducers/index';
+
+let store = createStore(rootReducer, applyMiddleware(thunk))
 
 ReactDOM.render(
   <Provider store={store}>

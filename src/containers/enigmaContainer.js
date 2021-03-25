@@ -27,7 +27,7 @@ class enigmaContainer extends Component {
 }
 
 const mapsStateToProps = (state) => {
-    return state
+    return state.artReducers
 }
 
 export default connect(mapsStateToProps, {loadArts})(enigmaContainer);
