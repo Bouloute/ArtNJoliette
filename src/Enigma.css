@@ -175,7 +175,11 @@
 
 .labyrinth {
     background: url("https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fmaze.jpg?alt=media&token=d3917a67-0906-4871-97ee-855a8d0d0f0a") no-repeat;
-    background-size: 100%;
+    background-size: 300px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 div.react-pattern-lock__point-inner {

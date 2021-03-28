@@ -72,6 +72,8 @@ class Quizz extends Component {
                 return(
                     <div className="labyrinth">
                         <PatternLock
+                            width={ 300 }
+                            //style={"margin"="auto"}
                             size={ 5 }
                             path={ this.state.drawn_path }
                             onChange={ (pattern) => {
@@ -104,31 +106,13 @@ class Quizz extends Component {
                     </div>
                 )
         }
-        /*
-        <div className="quizz-title ">
-                    <h2>
-                        {this.props.enigma}
-                    </h2>
-                </div>
-        <form onSubmit={this.handleSubmit} className="answer">
-                    <input name="answer" type="text" placeholder="Ma Réponse" onChange={this.handleChange}></input>
-                    <button>Entrez</button>
-                </form>
-
-                <div className="testing">
-                    <Puzzle 
-                        image={this.props.image_url}
-                        onDone={this.correctAnswer}
-                    />
-                </div>
-                */
+        
     }
 
     render() {
         return (
             <div className="quizz">
                 
-
                 {this.renderEnigmaFromType(this.props.enigma_type)}
                 
             </div>
