@@ -87,6 +87,8 @@
 
 .art img {
     width: 100%;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .art audio {
@@ -131,7 +133,6 @@
 
 .art-sum {
     margin-top: 20px;
-    font-size: 14px;
     overflow: hidden;
 }
 
