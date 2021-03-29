@@ -78,7 +78,7 @@
     margin: auto;
     margin-bottom: 2em;
     padding: 20px;
-    background-color: rgb(191, 227, 250);
+    background-color: rgb(120 206 244);
     border-radius: 7px;
     font-size: 18px;
     font-weight: 700;
@@ -133,6 +133,7 @@
 
 .art-sum {
     margin-top: 20px;
+    font-size: 25px;
     overflow: hidden;
 }
 
