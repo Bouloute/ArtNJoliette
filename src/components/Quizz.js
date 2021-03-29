@@ -76,15 +76,14 @@ class Quizz extends Component {
                             //style={"margin"="auto"}
                             size={ 5 }
                             path={ this.state.drawn_path }
+                            allowJumping = { false}
                             onChange={ (pattern) => {
                                 this.setState({ drawn_path : pattern });
-                                console.log(this.state.drawn_path.join("-"))
                             }}
                             onFinish={() => {
                                 if (this.state.drawn_path.join("-") === "3-2-1-0-5-10-15-16-17-22-21") {
                                     this.correctAnswer()
                                 } else {
-                                    console.log("START AGAIN")
                                     this.onDrawReset();
                                 }
                             }}
