@@ -1,4 +1,4 @@
-h1.title {
+.title h1{
     text-align: center;
     margin-top: 0px;
     padding-top: 0.67em;
@@ -6,6 +6,22 @@ h1.title {
     text-transform: uppercase;
     font-family: Gagalin-Regular;
 }
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.title img {
+    width: 30%;
+}
+
+.title img.right {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 
 @font-face {
     font-family: Gagalin-Regular;

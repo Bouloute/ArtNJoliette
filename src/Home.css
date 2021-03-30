@@ -24,7 +24,7 @@
 
 :root {
     --white: #ffffff;
-    --lightBG: #dce1df;
+    --lightBG: #f4f4f4;
     --salmon: #ff6666;
     --teal: #0096a0;
     --tealMid: #0ebac7;
@@ -37,9 +37,12 @@
 }
 
 
+html {
+    background: var(--white);
+}
 
 body {
-    background: var(--white);
+    background-image: linear-gradient(to bottom, var(--lightBG) , var(--white));
     color: var(--darkGrey);
     font-family: 'Source Sans Pro', sans-serif;
     text-rendering: optimizeLegibility;
