@@ -2,7 +2,7 @@ export const arts = [
     {
         "id": 1,
         "name": "Ours Biface",
-        "description": "Ourse orange biface au bord de la mer",
+        "description": "L'ours Jayet une sculpture monumentale qui s’est installée par surprise à Marseille début Mars 2020 sur l’esplanade du Mucem, il attendait la biennale d’art contemporain Manifesta. Le plus grand ours du monde pose ses 6 tonnes et 5 mètres de haut au pied de la cathédrale Sainte Marie Majeur. Pendant un an il contemplera la mer, le Mucem et la cathédrale. Cette œuvre de couleur Orange rappelle la chaleur du sud, la lumière, la créativité. Tout en arrondis la douceur de ses formes évoque la douceur alors que ses dimensions vertigineuses la rende puissante. Cet ours pop-art est la seule sculpture biface au monde, tel Janus, dieu romain des commencements et des fins, des choix, du passage et des portes vers un avenir meilleur. C’est ainsi que Jayet voit son ours : Un clin d’œil sur la face tournée vers le futur envoie le message « ne t’inquiète pas, le futur peut être magique ». L’autre face, tournée vers le passé, avec ses yeux écarquillés, exprime plutôt : « sans regrets, quoi qu’il ait pu se passer ».",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fourse.jpg?alt=media&token=92778884-ff46-42a4-9d35-126afd0fbc74",
         "enigma": "Ceci est un test.",
         "enigma_type": "Labyrinth",
@@ -86,7 +86,7 @@ export const artists = [
     {
         "id": 4,
         "name": "Jayet",
-        "description": "",
+        "description": "Jayet est un artiste plasticien de style pop-art. Parmi ses œuvres les plus emblématiques son ours biface à Marseille. C'est d'ailleurs avec l'ours que tout commence ; Déjà enfant l'animal est un fidèle compagnon et l'artiste le voit comme un symbole de douceur et de puissance. A cette image son immense ours biface orange vif tout en arrondis. Mais Jayet c'est d'abord un jeune homme avec des idées plein la tête. Les créations se traduisent dans différents domaines comme l'aviation ou encore l'audiovisuel. Il s'émancipe tard et se lance dans la sculpture. L'Ours c'est un animal totem, le souvenir d'enfant à travers la peluche, une saveur avec les bonbons Haribo et une visite au musée où il décide que lui aussi il aura Son ours. Aujourd'hui il est un artiste passionnée par la transformation de la matière et travaille avec un large panel de matériaux : le bois, le métal, le béton, la pierre. Adepte de modernité il n'hésite pas à s'entourer de professionnels tels des graphistes, peintres ou spécialistes de la 3D.",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fjayet.jpg?alt=media&token=1075392b-17e1-4574-b75e-941349be093e",
         "art": {
             "id": 1
