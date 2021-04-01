@@ -1,26 +1,26 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux'
-import "../Enigma.css"
+import "../Button.css"
 
-import Enigma from "../components/Enigma"
+import Button from "../components/Button"
 import {loadArts} from "../actions/artActions"
 
 
-class enigmaContainer extends Component {
+class buttonContainer extends Component {
     //belongs in Home?
     componentDidMount() {
         this.props.loadArts()
     }
     
-    renderEnigmas = () => {
+    renderButtons = () => {
         // TODO: art.name => art.enigma_name
-        return this.props.arts.map(art => <Enigma key={art.id} title={art.name} status="" url={"/enigmas/" + art.id}/>)
+        return this.props.arts.map(art => <Button key={art.id} title={art.name} status="" url={"/enigmas/" + art.id}/>)
     }
 
     render() {
         return (
             <div>
-                {this.renderEnigmas()}
+                {this.renderButtons()}
             </div>
         );
     }
@@ -30,4 +30,4 @@ const mapsStateToProps = (state) => {
     return state.artReducers
 }
 
-export default connect(mapsStateToProps, {loadArts})(enigmaContainer);
+export default connect(mapsStateToProps, {loadArts})(buttonContainer);

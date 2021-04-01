@@ -2,10 +2,10 @@ import React from 'react';
 
 import {NavLink} from 'react-router-dom'
 
-const Enigma = (props) => {
+const Button = (props) => {
     return (
-        <NavLink className="enigma" to={props.url}>
-            <div className={"enigma-title " + props.status}>
+        <NavLink className="button" to={props.url}>
+            <div className={"button-title " + props.status}>
                 <h2>
                     {props.title}
                 </h2>
@@ -14,4 +14,4 @@ const Enigma = (props) => {
     );
 };
 
-export default Enigma;
+export default Button;

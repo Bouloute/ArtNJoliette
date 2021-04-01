@@ -1,15 +1,15 @@
-.enigmas {
+.buttons {
     margin: 80px auto;
     text-align: center;
 }
 
-.enigma {
+.button {
     text-align: left;
     transition: all 0.3s 0s ease-in;
     z-index: 1;
 }
 
-.enigma .enigma-title {
+.button .button-title {
     margin: auto;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -21,7 +21,7 @@
     z-index: 0;
 }
 
-.enigma .completed {
+.button .completed {
     background-color: lightgreen;
     border-radius: 20px;
 

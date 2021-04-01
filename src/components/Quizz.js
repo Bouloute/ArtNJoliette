@@ -43,7 +43,7 @@ class Quizz extends Component {
         });
     };
 
-    renderEnigmaFromType = (type) => {
+    renderButtonFromType = (type) => {
         switch(type) {
             case "Puzzle":
                 return(
@@ -112,7 +112,7 @@ class Quizz extends Component {
         return (
             <div className="quizz">
                 
-                {this.renderEnigmaFromType(this.props.enigma_type)}
+                {this.renderButtonFromType(this.props.enigma_type)}
                 
             </div>
         );

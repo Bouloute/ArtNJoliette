@@ -7,8 +7,8 @@ import {
 } from 'react-router-dom';
 
 import Home from "./components/Home"
-import enigmaContainer from "./containers/enigmaContainer";
-import artistsContainer from "./containers/artistsContainer";
+import buttonContainer from "./containers/buttonContainer";
+import artistsButtonContainer from "./containers/artistsButtonContainer";
 import Quizz from "./components/Quizz";
 import Art from "./components/Art";
 import Artist from "./components/Artist";
@@ -30,10 +30,10 @@ class App extends Component {
           </NavLink>
           
           <Route exact path="/" component={Home} />
-          <Route exact path="/enigmas" component={enigmaContainer} />
+          <Route exact path="/enigmas" component={buttonContainer} />
           <Route exact path="/enigmas/:id" component={Quizz} />
           <Route exact path="/art/:id" component={Art} />
-          <Route exact path="/artists" component={artistsContainer} />
+          <Route exact path="/artists" component={artistsButtonContainer} />
           <Route exact path="/artists/:id" component={Artist} />
         </Router>
             
