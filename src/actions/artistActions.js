@@ -1,4 +1,4 @@
-import {artists} from '../data/arts'
+import {artists} from '../data/data'
 
 export const loadArtists = () => {
 
