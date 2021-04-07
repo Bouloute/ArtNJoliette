@@ -14,6 +14,43 @@ class Art extends Component {
         this.props.findArtById(this.props.match.params.id)
 
     }
+        slideIndex = 1;
+        
+    plusSlides(n){ 
+        return(this.showSlides(this.slideIndex += n))
+    }
+    
+    showSlides(n) {
+        console.log("show Slides")
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) {this.slideIndex = 1}
+        if (n < 1) {this.slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        if(slides.length != 0){
+            slides[this.slideIndex-1].style.display = "block";
+        }
+    }
+    
+    renderSlides(){
+        return(
+            <div>
+                <div className="mySlides">
+                    <img src={this.props.image_url}/>
+                </div>
+
+                <div className="mySlides" style={{display:"none"}}>
+                    <img src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54"/>
+                </div>
+
+                <a className="prev" onClick={() => this.plusSlides(-1)}>&#10094;</a>
+                <a className="next" onClick={() => this.plusSlides(1)}>&#10095;</a>
+            </div>
+        )
+
+    }
 
     render() { 
         if(!!this.props.artist) {
@@ -22,18 +59,19 @@ class Art extends Component {
                     <div className="bandeau">Bien joué</div>
 
                     <div className="art">
-                        <div class="art-cell">
-                            <div class="art-img">
-                                <img src={this.props.image_url} alt={this.state.name}/>
+                        <div className="art-cell">
+                            <div className="art-img">
+                                {/*<img src={this.props.image_url} alt={this.state.name}/>*/}
+                                {this.renderSlides()}
                             </div>
-                            <div class="art-content">
+                            <div className="art-content">
                                 <h2>{this.props.name}</h2>
 
-                                <div class="art-see">
+                                <div className="art-see">
                                     par {this.props.artist.name}
                                 </div>
                                 <br/>
-                                <div class="art-sum">
+                                <div className="art-sum">
                                     {this.props.description}
                                 </div>
                                 {!!this.props.description_audio?<audio
