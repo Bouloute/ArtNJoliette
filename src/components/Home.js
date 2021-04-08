@@ -19,7 +19,7 @@ const Home = () => {
             
             <div className="cards">
                 <Card image={riddle} title="Jeux" url="/enigmas"/>
-                <Card image={history} title="Point Histoire" url="/history"/>
+                <Card image={history} title="Point Activités" url="/activites"/>
                 <Card image={artists} title="Ateliers Artistes" url="/artists"/>
             </div>
             
