@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux'
 import {findArtById} from '../actions/artActions'
 
-import audio from '../png/272168__dethrok__cicadas.wav';
-
 class Art extends Component {
     constructor(props) {
         super(props);
@@ -14,7 +12,7 @@ class Art extends Component {
         this.props.findArtById(this.props.match.params.id)
 
     }
-        slideIndex = 1;
+    slideIndex = 1;
         
     plusSlides(n){ 
         return(this.showSlides(this.slideIndex += n))
@@ -62,7 +60,7 @@ class Art extends Component {
                         <div className="art-cell">
                             <div className="art-img">
                                 {/*<img src={this.props.image_url} alt={this.state.name}/>*/}
-                                {this.renderSlides()}
+                                {this.renderSlides()/*TODO -> Gallery component */}
                             </div>
                             <div className="art-content">
                                 <h2>{this.props.name}</h2>

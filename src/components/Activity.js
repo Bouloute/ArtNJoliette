@@ -1,19 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Gallery from './Gallery'
 
-const Activity = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-};
+class Activity extends Component {
+    render() {
+        return (
+            <div>
+                <Gallery/>
+            </div>
+        );
+    }
+}
 
 export default Activity;
-
-
-
-
-
-
-
-
