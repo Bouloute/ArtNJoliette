@@ -13,8 +13,7 @@ class buttonContainer extends Component {
     }
     
     renderButtons = () => {
-        // TODO: art.name => art.enigma_name
-        return this.props.arts.map(art => <Button key={art.id} title={art.name} status="" url={"/enigmas/" + art.id}/>)
+        return this.props.arts.map(art => <Button key={art.id} title={art.enigma_name} status="" url={"/enigmas/" + art.id}/>)
     }
 
     render() {

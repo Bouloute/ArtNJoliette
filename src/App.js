@@ -22,9 +22,9 @@ class App extends Component {
       <div>
         <Router>
           <NavLink to="/" className="title">
-            <img src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Logo.png?alt=media&token=07306777-6073-4856-add4-13032b091de2"></img>
+            <img src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Logo.png?alt=media&token=07306777-6073-4856-add4-13032b091de2" alt=""></img>
             <h1 >Art N' Joliette</h1>
-            <img src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Logo.png?alt=media&token=07306777-6073-4856-add4-13032b091de2" className="right"></img>
+            <img src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Logo.png?alt=media&token=07306777-6073-4856-add4-13032b091de2" className="right" alt =""></img>
           </NavLink>
           
           <Route exact path="/" component={Home} />

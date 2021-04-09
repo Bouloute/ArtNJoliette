@@ -14,7 +14,7 @@ class Artist extends Component {
     }
 
     render() { 
-        console.log(this.props)
+        //console.log(this.props)
         //if(!!this.props.artist) {
             return (
                 <div>
@@ -23,11 +23,11 @@ class Artist extends Component {
                             <div className="art-img">
                                 <img src={this.props.image_url} alt={this.state.name}/>
                             </div>
-                            <div class="art-content">
+                            <div className="art-content">
                                 <h2>{this.props.name}</h2>
 
                                 <br/>
-                                <div class="art-sum">
+                                <div className="art-sum">
                                     {this.props.description}
                                 </div>
                                 {!!this.props.description_audio?<audio
