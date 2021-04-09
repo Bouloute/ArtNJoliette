@@ -13,6 +13,7 @@ import Quizz from "./components/Quizz";
 import Art from "./components/Art";
 import Artist from "./components/Artist";
 import Activity from "./components/Activity";
+import History from "./components/History";
 import { NavLink } from 'react-router-dom/cjs/react-router-dom.min';
 
 class App extends Component {
@@ -33,6 +34,7 @@ class App extends Component {
           <Route exact path="/artists" component={artistsButtonContainer} />
           <Route exact path="/artists/:id" component={Artist} />
           <Route exact path="/activity" component={Activity} />
+          <Route exact path="/history" component={History} />
         </Router>
       </div>
     );
