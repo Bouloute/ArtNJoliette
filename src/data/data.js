@@ -6,6 +6,7 @@ export const arts = [
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fourse.jpg?alt=media&token=92778884-ff46-42a4-9d35-126afd0fbc74",
         "enigma": "Ceci est un test.",
         "enigma_type": "Labyrinth",
+        "enigma_name": "C'est Beau la Vie",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.825128806022!2d5.36035711549159!3d43.29698367913515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c13e9876806d%3A0x575fa16048e0502d!2sEsplanade%20du%20J4!5e0!3m2!1sen!2sus!4v1611776148724!5m2!1sen!2sus",
         "artist": {
             "id": 4,
@@ -18,6 +19,7 @@ export const arts = [
         "description": "Fresque",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
         "enigma": "Ceci est un test. Les bonnes reponses sont: bob et bobby",
+        "enigma_name": "Au Pied du Mur",
         "answers": "bob, bobby",
         "map_url": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2903.2492035609093!2d5.365396015491966!3d43.30904242913455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPassage%20Henri%20Verneuil!5e0!3m2!1sen!2sus!4v1611854942498!5m2!1sen!2sus",
         "artist": {
@@ -33,6 +35,7 @@ export const arts = [
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2F143000436_232308558490095_5211856471468779632_n.jpg?alt=media&token=d79eaab9-7c0e-40cd-947a-c90119d7a68b",
         "enigma": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2Ftomygris.mp3?alt=media&token=484aa1e3-a364-4476-a4aa-706f8b641c3d",
         "enigma_type": "Audio",
+        "enigma_name": "Comme un Phenix",
         "answers": "Seconde Vie, seconde vie, Seconde vie, seconde Vie",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1451.6902399761411!2d5.365507658201738!3d43.306293994783665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c0ee9560ef01%3A0xebe89f1d6ddb7d14!2sQ-Park%20Les%20Docks%20-%20arvieux!5e0!3m2!1sen!2sus!4v1616206799296!5m2!1sen!2sus",        "artist": {
             "id": 2,
@@ -46,6 +49,7 @@ export const arts = [
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F142333638_814197942645417_8376132969989383353_n.jpg?alt=media&token=eb86a82c-9dda-4da3-8fda-401ddba74aec",
         "enigma": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F164151580_202490001210117_4685249725074018271_n.jpg?alt=media&token=8d68a953-266a-4c6b-95c0-b6bd21974e59",
         "enigma_type": "Puzzle",
+        "enigma_name": "J'ai le Blues",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.7339445360412!2d5.361296915491653!3d43.298893079135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c0c2c6b19e5f%3A0xe693936cd108d2b6!2sBoulevard%20Jacques%20Saade%2C%2013002%20Marseille%2C%20France!5e0!3m2!1sen!2sus!4v1611855036218!5m2!1sen!2sus",
         "artist": {
             "id": 1,
