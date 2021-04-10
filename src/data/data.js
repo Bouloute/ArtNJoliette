@@ -18,9 +18,9 @@ export const arts = [
         "name": "Evasion",
         "description": "Fresque",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
-        "enigma": "Ceci est un test. Les bonnes reponses sont: bob et bobby",
+        "enigma": "Quel est le procédé artistique qui réunit ces 4 oeuvres ?",
         "enigma_name": "Au Pied du Mur",
-        "answers": "bob, bobby",
+        "answers": "trompe l'oeil, trompe loeil, trompe-l'oeil, trompe-loeil, trompe oeil, trompe œil, trompe l'œil, trompe-œil, trompe-l'œil",
         "map_url": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2903.2492035609093!2d5.365396015491966!3d43.30904242913455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPassage%20Henri%20Verneuil!5e0!3m2!1sen!2sus!4v1611854942498!5m2!1sen!2sus",
         "artist": {
             "id": 3,
