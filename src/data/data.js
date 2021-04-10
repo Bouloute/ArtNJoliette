@@ -18,6 +18,12 @@ export const arts = [
         "name": "Evasion",
         "description": "Fresque",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
+        "images": [
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2F142377261_921710658567583_3446252275214574817_n.jpg?alt=media&token=02650a58-0ab2-49cf-9075-e33964c959ab",
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2F142200511_454464812245572_5906864882134872899_n.jpg?alt=media&token=63fcf37c-9d43-4289-8885-a1acd2d0061c",
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2F142159227_478606383309340_1270366651172879512_n.jpg?alt=media&token=28034b9f-e4b0-4fe5-a7fa-5d7832456419"
+        ],
         "enigma": "Quel est le procédé artistique qui réunit ces 4 oeuvres ?",
         "enigma_name": "Au Pied du Mur",
         "answers": "trompe l'oeil, trompe loeil, trompe-l'oeil, trompe-loeil, trompe oeil, trompe œil, trompe l'œil, trompe-œil, trompe-l'œil",
