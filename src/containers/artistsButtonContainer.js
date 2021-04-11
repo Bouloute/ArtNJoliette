@@ -20,6 +20,7 @@ class artistsButtonContainer extends Component {
     render() {
         return (
             <div>
+                <h2>Biographies et interviews des artistes des œuvres de La Joliette</h2>
                 {this.renderArtists()}
             </div>
         );

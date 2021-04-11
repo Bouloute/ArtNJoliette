@@ -4,7 +4,10 @@ class History extends Component {
     render() {
         return (
             <div className="art">
+                <h2>Brève histoire du quartier de La Joliette</h2>
                 <div className="art-content">
+                <audio src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/vocal%20histoire%20la%20Joliette.mp3?alt=media&token=752f9969-b031-468f-a365-6eaf5f8c7941" controls/>
+
                     <div className="art-sum">
                     
                         Si l’on en croit la légende locale, c'est l’empereur romain Jules César qui lui aurait donné son nom.
@@ -20,10 +23,14 @@ class History extends Component {
                         Cependant, cette image de carte postale est controversée. Dans les années 90 la modernisation du quartier a nécessité l’évacuation de populations pauvres vers les autres espaces de la ville. Ceux qui ne peuvent s’en aller voient les loyers augmenter de façon exorbitante pour leurs maigres revenus. Avec la fin des travaux la Joliette accueille une nouvelle population, plus aisée et moins présente à l'année.
 
                     </div>
+
+                    {/*<Gallery imgs={[
+                        "",
+                        ""
+                    ]}/>*/}
                 </div>
             </div>
         );
     }
 }
-
 export default History;
