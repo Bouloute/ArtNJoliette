@@ -42,7 +42,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to bottom, var(--lightBG) , var(--white));
+    background: var(--white);
     color: var(--darkGrey);
     font-family: 'Source Sans Pro', sans-serif;
     text-rendering: optimizeLegibility;
