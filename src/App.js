@@ -23,8 +23,9 @@ class App extends Component {
       <div>
         <Router>
           <NavLink to="/" className="title">
-            <h1 >Art N' Joliette</h1>
             <img src={logo} alt=""></img>
+            <h1 >Art N' Joliette</h1>
+
           </NavLink>
           
           <Route exact path="/" component={Home} />
