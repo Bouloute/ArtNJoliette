@@ -1,4 +1,4 @@
-import riddle from '../png/camera.png';
+import riddle from '../png/puzzle.png';
 import history from '../png/history.png';
 import artists from '../png/color-palette.png';
 import activity from '../png/camera.png';
@@ -22,10 +22,10 @@ const Home = () => {
             </div>
             
             <div className="cards">
-                <Card image={riddle} title="Jeux" url="/enigmas"/>
                 <Card image={history} title="Point Histoire" url="/history"/>
+                <Card image={riddle} title="Jeux" url="/enigmas"/>
                 <Card image={artists} title="Ateliers d'Artistes" url="/artists"/>
-                <Card image={activity} title="Médiations" url="/activity"/>
+                <Card image={activity} title="Photos" url="/activity"/>
             </div>
             
             <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
