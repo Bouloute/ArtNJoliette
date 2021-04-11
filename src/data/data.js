@@ -3,7 +3,12 @@ export const arts = [
         "id": 1,
         "name": "Ours Biface",
         "description": "L'ours Jayet une sculpture monumentale qui s’est installée par surprise à Marseille début Mars 2020 sur l’esplanade du Mucem, il attendait la biennale d’art contemporain Manifesta. Le plus grand ours du monde pose ses 6 tonnes et 5 mètres de haut au pied de la cathédrale Sainte Marie Majeur. Pendant un an il contemplera la mer, le Mucem et la cathédrale. Cette œuvre de couleur Orange rappelle la chaleur du sud, la lumière, la créativité. toutes en arrondis ses formes évoquent la douceur alors que ses dimensions vertigineuses la rende puissante. Cet ours pop-art est la seule sculpture biface au monde, tel Janus, dieu romain des commencements et des fins, des choix, du passage et des portes vers un avenir meilleur. C’est ainsi que Jayet voit son ours : Un clin d’œil sur la face tournée vers le futur envoie le message « ne t’inquiète pas, le futur peut être magique ». L’autre face, tournée vers le passé, avec ses yeux écarquillés, exprime plutôt : « sans regrets, quoi qu’il ait pu se passer ».",
-        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fourse.jpg?alt=media&token=92778884-ff46-42a4-9d35-126afd0fbc74",
+        "images": [
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fourse.jpg?alt=media&token=92778884-ff46-42a4-9d35-126afd0fbc74",
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2F142377261_921710658567583_3446252275214574817_n.jpg?alt=media&token=02650a58-0ab2-49cf-9075-e33964c959ab",
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2F142200511_454464812245572_5906864882134872899_n.jpg?alt=media&token=63fcf37c-9d43-4289-8885-a1acd2d0061c",
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2F142159227_478606383309340_1270366651172879512_n.jpg?alt=media&token=28034b9f-e4b0-4fe5-a7fa-5d7832456419"
+        ],
         "enigma": "Ceci est un test.",
         "enigma_type": "Labyrinth",
         "enigma_name": "C'est Beau la Vie",
@@ -19,10 +24,9 @@ export const arts = [
         "description": "Fresque",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
         "images": [
-            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2F142377261_921710658567583_3446252275214574817_n.jpg?alt=media&token=02650a58-0ab2-49cf-9075-e33964c959ab",
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
-            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2F142200511_454464812245572_5906864882134872899_n.jpg?alt=media&token=63fcf37c-9d43-4289-8885-a1acd2d0061c",
-            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2F142159227_478606383309340_1270366651172879512_n.jpg?alt=media&token=28034b9f-e4b0-4fe5-a7fa-5d7832456419"
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F164476336_352693589414464_8548551245548174931_n%20(1).jpg?alt=media&token=a2b764e0-6c98-43b4-9a40-1ac9191e01ae",
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F164245752_900304334096900_4985764523626814689_n.jpg?alt=media&token=92a72eb7-00e5-4212-94b5-8954c38c6e3f"
         ],
         "enigma": "Quel est le procédé artistique qui réunit ces 4 oeuvres ?",
         "enigma_name": "Au Pied du Mur",
@@ -38,7 +42,10 @@ export const arts = [
         "name": "Seconde Vie",
         "description": "A l’origine, cette œuvre commandée par Euroméditerranée en 2010, était celle de Miguel Chevalier, artiste digital, et Charles Bové, designer. Nommée Seconde Nature, cette sculpture inclinée était constituée d’une statue d’acier de 18 mètres de haut et de 3 vidéoprojecteurs. Une œuvre hybride, mêlant réel et virtuel, qui projetait sur la façade des docks la flore méditerranéenne évoluant au fil des saisons. Les promeneurs pouvaient découvrir tantôt des palmiers, tantôt des plantes grasses, qui s’inclinaient à leur passage. Flamboyante et enroulée sur elle-même, la statue évoque la forme d’un coquillage, le vent qui s'engouffre dans la voile des bateaux. Au fur et à mesure, la sculpture s’est dégradée, œuvre du temps ou des tags des passants. Le duo d’artistes a alors demandé à l’association Planètes Émergences, qui aide à la réhabilitation d’espaces communs en leur apportant une touche artistique, de lancer un appel à projet pour restaurer l'œuvre, lui donner un nouveau souffle, une Seconde Vie. Ipin, street artiste, s’intègre au projet et décide de s’inspirer de la \"lutte anti graffiti\" qui court les rues : une pratique des politiques urbaines qui consiste à recouvrir les graffitis par l'application d'une couche de peinture de teinte plus ou moins proche de la couleur originelle du mur. Jouant avec les tags présents et les “patchs” de peinture imposés par la municipalité pour les dissimuler, il crée une mosaïque de carrés orange qui s’élève et s’organise. Les œuvres d’art sont le reflet d’un territoire. A l’image du quartier, Seconde Nature devenue Seconde Vie n’a cessé de se métamorphoser. Qui sait ce qu’elle deviendra ? ",
         "description_audio": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2Fm%C3%A9diation%20ipin%20.mp3?alt=media&token=7cef89de-da51-4bee-a9ea-a58e5a1b68e7",
-        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2F143000436_232308558490095_5211856471468779632_n.jpg?alt=media&token=d79eaab9-7c0e-40cd-947a-c90119d7a68b",
+        "images": [
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2F143000436_232308558490095_5211856471468779632_n.jpg?alt=media&token=d79eaab9-7c0e-40cd-947a-c90119d7a68b",
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2F142348647_719005959007306_2675854587287974445_n.jpg?alt=media&token=070847d3-e6b4-47de-af64-66de4711f9b3"
+        ],
         "enigma": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2Ftomygris.mp3?alt=media&token=484aa1e3-a364-4476-a4aa-706f8b641c3d",
         "enigma_type": "Audio",
         "enigma_name": "Comme un Phenix",
@@ -52,7 +59,11 @@ export const arts = [
         "id": 4,
         "name": "Bleu de Chine",
         "description": "Statue",
-        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F142333638_814197942645417_8376132969989383353_n.jpg?alt=media&token=eb86a82c-9dda-4da3-8fda-401ddba74aec",
+        "images":[
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F142333638_814197942645417_8376132969989383353_n.jpg?alt=media&token=eb86a82c-9dda-4da3-8fda-401ddba74aec",
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F164151580_202490001210117_4685249725074018271_n.jpg?alt=media&token=8d68a953-266a-4c6b-95c0-b6bd21974e59",
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F142141764_1041633756333999_8144797071934947440_n.jpg?alt=media&token=7fd61931-24b3-47c8-bd8e-2c948087ef5b"
+        ],
         "enigma": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F164151580_202490001210117_4685249725074018271_n.jpg?alt=media&token=8d68a953-266a-4c6b-95c0-b6bd21974e59",
         "enigma_type": "Puzzle",
         "enigma_name": "J'ai le Blues",
