@@ -161,3 +161,8 @@ div.react-pattern-lock__point-inner {
 div.react-pattern-lock__connector {
     background: grey;
 }
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}

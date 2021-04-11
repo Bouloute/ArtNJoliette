@@ -19,6 +19,8 @@ class buttonContainer extends Component {
     render() {
         return (
             <div>
+                <h2>Tentez de répondre aux énigmes pour découvrir les œuvres de
+                La Joliette puis allez les rencontrer en vous aidant du plan !</h2>
                 {this.renderButtons()}
             </div>
         );

@@ -91,20 +91,24 @@ class Quizz extends Component {
                         />
                     </div>
                 )
-            default:
+            case "Quizz":
                 return(
                     <div>
                         <div className="quizz-title ">
                             <h2>
                                 {this.props.enigma}
                             </h2>
-                            <Gallery/>
+                            <Gallery imgs={this.props.enigma_photos}/>
                         </div>
                         <form onSubmit={this.handleSubmit} className="answer">
                             <input name="answer" type="text" placeholder="Ma Réponse" onChange={this.handleChange}></input>
                             <button>Entrez</button>
                         </form>
                     </div>
+                )
+            default:
+                return(
+                    <div>Something went wrong</div>
                 )
         }
         

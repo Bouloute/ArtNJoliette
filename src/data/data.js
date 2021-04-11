@@ -29,7 +29,14 @@ export const arts = [
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F164245752_900304334096900_4985764523626814689_n.jpg?alt=media&token=92a72eb7-00e5-4212-94b5-8954c38c6e3f"
         ],
         "enigma": "Quel est le procédé artistique qui réunit ces 4 oeuvres ?",
+        "enigma_type": "Quizz",
         "enigma_name": "Au Pied du Mur",
+        "enigma_photos":[
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F164871552_467446834590377_6934405881341999221_n.png?alt=media&token=e72d608b-0d97-43cd-861a-abf272289f43",
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F164891439_137344031646103_3162889506014065967_n.png?alt=media&token=d437ee38-026a-46ff-acb8-242e1a0bbbd1",
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F164434275_741356949907093_3041211681651574992_n.png?alt=media&token=ca55e7d7-e71c-48e5-86db-7e0960e3ebe7",
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F164205057_284518713030557_3232223702319907855_n.png?alt=media&token=8c26c505-cba2-4128-9451-9de728f88d95"
+        ],
         "answers": "trompe l'oeil, trompe loeil, trompe-l'oeil, trompe-loeil, trompe oeil, trompe œil, trompe l'œil, trompe-œil, trompe-l'œil",
         "map_url": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2903.2492035609093!2d5.365396015491966!3d43.30904242913455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPassage%20Henri%20Verneuil!5e0!3m2!1sen!2sus!4v1611854942498!5m2!1sen!2sus",
         "artist": {
