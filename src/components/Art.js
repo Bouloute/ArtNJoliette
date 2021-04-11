@@ -23,9 +23,6 @@ class Art extends Component {
 
                     <div className="art">
                         <div className="art-cell">
-                            <div className="art-img">
-                                <Gallery imgs={this.props.images}/>
-                            </div>
                             <div className="art-content">
                                 <h2>{this.props.name}</h2>
 
@@ -40,6 +37,9 @@ class Art extends Component {
                                     src={this.props.description_audio}
                                     controls
                                 />:null}
+                            </div>
+                            <div className="art-img">
+                                <Gallery imgs={this.props.images}/>
                             </div>
                         </div>
                     </div>
