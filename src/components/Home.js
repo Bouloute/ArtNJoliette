@@ -11,10 +11,13 @@ const Home = () => {
     return (
         <div className="Home">
             <div className="bandeau">
-                <p> Étudiants en licence pro médiation culturelle et en partenariat avec le centre social Léo Lagrange,<br/>
-                    nous vous proposons une balade interactive de la Joliette pour découvrir les œuvres urbaines qui s’y cachent.<br/>
-                    En espérant vous voir nombreux à arpenter les rues du quartier à la conquête de ses secrets !<br/>
-                    L’Équipe ART N’JOLIETTE
+                <p> Etudiant.e.s en licence professionnelle médiation
+                    culturelle, nous vous proposons une balade interactive de La Joliette à Marseille.
+                    Cliquez sur les différents onglets ci-dessous pour déceler, grâce à nos jeux, les
+                    œuvres urbaines du quartier mais également son histoire et celles des artistes
+                    impliqués.<br/>
+                    En espérant vous voir nombreux arpenter les rues de La Joliette à la conquête de
+                    ses secrets !
                 </p>
             </div>
             
