@@ -21,17 +21,30 @@ class Gallery extends Component {
         }
     }
 
+    renderImages = (imgs) => {
+        return imgs.map( (img, i) => {
+            if (i === 0){
+                return (
+                    <div className="mySlides"> 
+                        <img src={img} alt=""/> 
+                    </div>
+                )
+            }
+            else {
+                return (
+                    <div className="mySlides" style={{display:'none'}}> 
+                        <img src={img} alt=""/> 
+                    </div>
+                )
+            }
+        })
+    }
+
     render() {
         return (
             <div>
-                <div className="mySlides">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F142333638_814197942645417_8376132969989383353_n.jpg?alt=media&token=eb86a82c-9dda-4da3-8fda-401ddba74aec"/>
-                </div>
-
-                <div className="mySlides" style={{display:"none"}}>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54"/>
-                </div>
-
+                {this.renderImages(this.props.imgs)}
+                
                 <a className="prev" onClick={() => this.plusSlides(-1)}>&#10094;</a>
                 <a className="next" onClick={() => this.plusSlides(1)}>&#10095;</a>
             </div>

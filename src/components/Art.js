@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux'
 import {findArtById} from '../actions/artActions'
 
+import Gallery from './Gallery'
+
 class Art extends Component {
     constructor(props) {
         super(props);
@@ -12,44 +14,7 @@ class Art extends Component {
         this.props.findArtById(this.props.match.params.id)
 
     }
-    slideIndex = 1;
-        
-    plusSlides(n){ 
-        return(this.showSlides(this.slideIndex += n))
-    }
     
-    showSlides(n) {
-        console.log("show Slides")
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        if (n > slides.length) {this.slideIndex = 1}
-        if (n < 1) {this.slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        if(slides.length != 0){
-            slides[this.slideIndex-1].style.display = "block";
-        }
-    }
-    
-    renderSlides(){
-        return(
-            <div>
-                <div className="mySlides">
-                    <img src={this.props.image_url}/>
-                </div>
-
-                <div className="mySlides" style={{display:"none"}}>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54"/>
-                </div>
-
-                <a className="prev" onClick={() => this.plusSlides(-1)}>&#10094;</a>
-                <a className="next" onClick={() => this.plusSlides(1)}>&#10095;</a>
-            </div>
-        )
-
-    }
-
     render() { 
         if(!!this.props.artist) {
             return (
@@ -59,8 +24,7 @@ class Art extends Component {
                     <div className="art">
                         <div className="art-cell">
                             <div className="art-img">
-                                {/*<img src={this.props.image_url} alt={this.state.name}/>*/}
-                                {this.renderSlides()/*TODO -> Gallery component */}
+                                <Gallery imgs={this.props.images}/>
                             </div>
                             <div className="art-content">
                                 <h2>{this.props.name}</h2>
