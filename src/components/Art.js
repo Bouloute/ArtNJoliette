@@ -27,7 +27,7 @@ class Art extends Component {
                                 <h2>{this.props.name}</h2>
 
                                 <div className="art-see">
-                                    par {this.props.artist.name}
+                                    par <a href={"/artists/" +this.props.artist.id}>{this.props.artist.name}</a>
                                 </div>
                                 <br/>
                                 <div className="art-sum">

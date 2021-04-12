@@ -78,7 +78,7 @@
     margin: auto;
     margin-bottom: 2em;
     padding: 20px;
-    background-color: rgb(120 206 244);
+    background-color: var(--buttons);
     border-radius: 7px;
     font-size: 18px;
     font-weight: 700;
@@ -125,7 +125,6 @@
 .art-content {
     width: 100%;
     padding-left: 10px;
-    color: #fff;
     overflow: hidden;
     text-align: center;
 }
