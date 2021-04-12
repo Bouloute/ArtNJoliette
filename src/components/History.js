@@ -6,8 +6,8 @@ class History extends Component {
             <div className="art">
                 <h2>Brève histoire du quartier de La Joliette</h2>
                 <div className="art-content">
-                <audio src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/vocal%20histoire%20la%20Joliette.mp3?alt=media&token=752f9969-b031-468f-a365-6eaf5f8c7941" controls/>
-
+        {/*         <audio src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/vocal%20histoire%20la%20Joliette.mp3?alt=media&token=752f9969-b031-468f-a365-6eaf5f8c7941" controls/>
+*/}
                     <div className="art-sum">
                     
                         Si l’on en croit la légende locale, c'est l’empereur romain Jules César qui lui aurait donné son nom.
