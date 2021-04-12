@@ -2,7 +2,12 @@ export const arts = [
     {
         "id": 1,
         "name": "Ours Biface",
-        "description": "L'ours Jayet une sculpture monumentale qui s’est installée par surprise à Marseille début Mars 2020 sur l’esplanade du Mucem, il attendait la biennale d’art contemporain Manifesta. \n Le plus grand ours du monde pose ses 6 tonnes et 5 mètres de haut au pied de la cathédrale Sainte Marie Majeur. Pendant un an il contemplera la mer, le Mucem et la cathédrale. Cette œuvre de couleur Orange rappelle la chaleur du sud, la lumière, la créativité. toutes en arrondis ses formes évoquent la douceur alors que ses dimensions vertigineuses la rende puissante. Cet ours pop-art est la seule sculpture biface au monde, tel Janus, dieu romain des commencements et des fins, des choix, du passage et des portes vers un avenir meilleur. C’est ainsi que Jayet voit son ours : Un clin d’œil sur la face tournée vers le futur envoie le message « ne t’inquiète pas, le futur peut être magique ». L’autre face, tournée vers le passé, avec ses yeux écarquillés, exprime plutôt : « sans regrets, quoi qu’il ait pu se passer ».",
+        "description": [ 
+            "L'ours Jayet une sculpture monumentale qui s’est installée par surprise à Marseille début Mars 2020 sur l’esplanade du Mucem, il attendait la biennale d’art contemporain Manifesta.",
+            "Le plus grand ours du monde pose ses 6 tonnes et 5 mètres de haut au pied de la cathédrale Sainte Marie Majeur.",
+            "Pendant un an il contemplera la mer, le Mucem et la cathédrale. Cette œuvre de couleur Orange rappelle la chaleur du sud, la lumière, la créativité. toutes en arrondis ses formes évoquent la douceur alors que ses dimensions vertigineuses la rende puissante. Cet ours pop-art est la seule sculpture biface au monde, tel Janus, dieu romain des commencements et des fins, des choix, du passage et des portes vers un avenir meilleur.",
+            "C’est ainsi que Jayet voit son ours : Un clin d’œil sur la face tournée vers le futur envoie le message « ne t’inquiète pas, le futur peut être magique ». L’autre face, tournée vers le passé, avec ses yeux écarquillés, exprime plutôt : « sans regrets, quoi qu’il ait pu se passer »."
+        ],
         "description_audio": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2FVocal-pr%C3%A9sentation-Ours-biface.mp3?alt=media&token=f1bcd1d0-064e-4276-93fb-3088dc76d2f1",
         "images": [
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fourse.jpg?alt=media&token=92778884-ff46-42a4-9d35-126afd0fbc74",
@@ -22,7 +27,9 @@ export const arts = [
     {
         "id": 2,
         "name": "Evasion",
-        "description": "",
+        "description": [
+            ""
+        ],
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
         "images": [
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
@@ -48,7 +55,16 @@ export const arts = [
     {
         "id": 3,
         "name": "Seconde Vie",
-        "description": "A l’origine, cette œuvre commandée par Euroméditerranée en 2010, était celle de Miguel Chevalier, artiste digital, et Charles Bové, designer. Nommée Seconde Nature, cette sculpture inclinée était constituée d’une statue d’acier de 18 mètres de haut et de 3 vidéoprojecteurs. Une œuvre hybride, mêlant réel et virtuel, qui projetait sur la façade des docks la flore méditerranéenne évoluant au fil des saisons. Les promeneurs pouvaient découvrir tantôt des palmiers, tantôt des plantes grasses, qui s’inclinaient à leur passage. Flamboyante et enroulée sur elle-même, la statue évoque la forme d’un coquillage, le vent qui s'engouffre dans la voile des bateaux. Au fur et à mesure, la sculpture s’est dégradée, œuvre du temps ou des tags des passants. Le duo d’artistes a alors demandé à l’association Planètes Émergences, qui aide à la réhabilitation d’espaces communs en leur apportant une touche artistique, de lancer un appel à projet pour restaurer l'œuvre, lui donner un nouveau souffle, une Seconde Vie. Ipin, street artiste, s’intègre au projet et décide de s’inspirer de la \"lutte anti graffiti\" qui court les rues : une pratique des politiques urbaines qui consiste à recouvrir les graffitis par l'application d'une couche de peinture de teinte plus ou moins proche de la couleur originelle du mur. Jouant avec les tags présents et les “patchs” de peinture imposés par la municipalité pour les dissimuler, il crée une mosaïque de carrés orange qui s’élève et s’organise. Les œuvres d’art sont le reflet d’un territoire. A l’image du quartier, Seconde Nature devenue Seconde Vie n’a cessé de se métamorphoser. Qui sait ce qu’elle deviendra ? ",
+        "description":[
+            "A l’origine, cette œuvre commandée par Euroméditerranée en 2010, était celle de Miguel Chevalier, artiste digital, et Charles Bové, designer.",
+            "Nommée Seconde Nature, cette sculpture inclinée était constituée d’une statue d’acier de 18 mètres de haut et de 3 vidéoprojecteurs. Une œuvre hybride, mêlant réel et virtuel, qui projetait sur la façade des docks la flore méditerranéenne évoluant au fil des saisons. Les promeneurs pouvaient découvrir tantôt des palmiers, tantôt des plantes grasses, qui s’inclinaient à leur passage.",
+            "Flamboyante et enroulée sur elle-même, la statue évoque la forme d’un coquillage, le vent qui s'engouffre dans la voile des bateaux.",
+            "Au fur et à mesure, la sculpture s’est dégradée, œuvre du temps ou des tags des passants.",
+            "Le duo d’artistes a alors demandé à l’association Planètes Émergences, qui aide à la réhabilitation d’espaces communs en leur apportant une touche artistique, de lancer un appel à projet pour restaurer l'œuvre, lui donner un nouveau souffle, une Seconde Vie.",
+            "Ipin, street artiste, s’intègre au projet et décide de s’inspirer de la \"lutte anti graffiti\" qui court les rues : une pratique des politiques urbaines qui consiste à recouvrir les graffitis par l'application d'une couche de peinture de teinte plus ou moins proche de la couleur originelle du mur.",
+            "Jouant avec les tags présents et les “patchs” de peinture imposés par la municipalité pour les dissimuler, il crée une mosaïque de carrés orange qui s’élève et s’organise.", 
+            "Les œuvres d’art sont le reflet d’un territoire. A l’image du quartier, Seconde Nature devenue Seconde Vie n’a cessé de se métamorphoser. Qui sait ce qu’elle deviendra ? "
+        ],
         "description_audio": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2Fm%C3%A9diation%20ipin%20.mp3?alt=media&token=7cef89de-da51-4bee-a9ea-a58e5a1b68e7",
         "images": [
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Seconde%20Vie%2F143000436_232308558490095_5211856471468779632_n.jpg?alt=media&token=d79eaab9-7c0e-40cd-947a-c90119d7a68b",
@@ -66,7 +82,9 @@ export const arts = [
     {
         "id": 4,
         "name": "Bleu de Chine",
-        "description": "",
+        "description": [
+            ""
+        ],
         "images":[
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F142333638_814197942645417_8376132969989383353_n.jpg?alt=media&token=eb86a82c-9dda-4da3-8fda-401ddba74aec",
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F164151580_202490001210117_4685249725074018271_n.jpg?alt=media&token=8d68a953-266a-4c6b-95c0-b6bd21974e59",

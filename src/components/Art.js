@@ -31,7 +31,8 @@ class Art extends Component {
                                 </div>
                                 <br/>
                                 <div className="art-sum">
-                                    {this.props.description}
+                                    {/*this.props.description*/}
+                                    {this.props.description.map(d => <p>{d}</p> )}
                                 </div>
                                 {!!this.props.description_audio?<audio
                                     src={this.props.description_audio}
