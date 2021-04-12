@@ -10,44 +10,33 @@ class Artist extends Component {
         }
 
         this.props.findArtistById(this.props.match.params.id)
-
     }
 
     render() { 
-        //console.log(this.props)
-        //if(!!this.props.artist) {
-            return (
-                <div>
-                    <div className="art">
-                        <div className="art-cell">
-                            <div className="art-img">
-                                <img src={this.props.image_url} alt={this.state.name}/>
-                            </div>
-                            <div className="art-content">
-                                <h2>{this.props.name}</h2>
+        return (
+            <div>
+                <div className="art">
+                    <div className="art-cell">
+                        <div className="art-img">
+                            <img src={this.props.image_url} alt={this.state.name}/>
+                        </div>
+                        <div className="art-content">
+                            <h2>{this.props.name}</h2>
 
-                                <br/>
-                                <div className="art-sum">
-                                    {this.props.description}
-                                </div>
-                                {!!this.props.description_audio?<audio
-                                    src={this.props.description_audio}
-                                    controls
-                                />:null}
+                            <br/>
+                            <div className="art-sum">
+                            {this.props.description.map(d => <p>{d}</p> )}
                             </div>
+                            {!!this.props.description_audio?<audio
+                                src={this.props.description_audio}
+                                controls
+                            />:null}
                         </div>
                     </div>
-                    
                 </div>
-            );
-       /* }
-        else {
-            return (
-                <div>
-                    <div className="bandeau">{this.state.name}</div>
-                </div>
-            )
-        }*/
+                
+            </div>
+        );
     }
 }
 

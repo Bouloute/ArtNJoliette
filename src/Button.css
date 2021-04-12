@@ -114,6 +114,7 @@
 
 .art-cell {
     position: relative;
+    display: flex;
     margin-right: 1px;
     box-sizing: border-box;
 }
