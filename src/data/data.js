@@ -21,7 +21,7 @@ export const arts = [
     {
         "id": 2,
         "name": "Evasion",
-        "description": "Fresque",
+        "description": "",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
         "images": [
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
@@ -65,7 +65,7 @@ export const arts = [
     {
         "id": 4,
         "name": "Bleu de Chine",
-        "description": "Statue",
+        "description": "",
         "images":[
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F142333638_814197942645417_8376132969989383353_n.jpg?alt=media&token=eb86a82c-9dda-4da3-8fda-401ddba74aec",
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F164151580_202490001210117_4685249725074018271_n.jpg?alt=media&token=8d68a953-266a-4c6b-95c0-b6bd21974e59",
