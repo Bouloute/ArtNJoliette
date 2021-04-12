@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../photos.css'
 
 class History extends Component {
     render() {
@@ -27,7 +28,15 @@ class History extends Component {
                     {/*<Gallery imgs={[
                         "",
                         ""
-                    ]}/>*/}
+                    ]}/>
+                    
+                    brush PNG Designed By 千图网 from <a href="https://pngtree.com/">Pngtree.com</a>*/}
+                    {/*<div className="imgBox1">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Histoire%2FCathedrale%20et%20quai%20de%20la%20Joliette%202020.jpg?alt=media&token=b76af183-dba4-4443-987a-ae4d82f6de33" alt=""/>
+                    </div>
+                    <div className="imgBox2">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Histoire%2FRound%20Brush.png?alt=media&token=bc758a21-7807-4c48-85f1-b635a447ccdd" alt=""/>
+                </div>*/}
                 </div>
             </div>
         );
