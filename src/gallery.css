@@ -15,11 +15,17 @@ div.mySlides img{
     margin-top: -50px;
     margin-left: 25%;
     color: white;
+    background: grey;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
+}
+
+div.quizz-title div .prev, .next{
+
+    margin-left: -25%;
 }
 
 /* Position the "next button" to the right */
