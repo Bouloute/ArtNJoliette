@@ -15,6 +15,11 @@ class Quizz extends Component {
         this.props.findArtById(this.props.match.params.id)
     }
     
+    componentDidCatch(error, info) {
+        console.log("labyrinth failed again")
+        //window.location.reload();
+    }
+    
     handleChange = (event) => {
         this.setState({
             [event.target.name]: event.target.value

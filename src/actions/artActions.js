@@ -10,7 +10,7 @@ export const loadArts = () => {
 
 export const findArtById = (id) => {
     return(dispatch) => {
-        dispatch({ type: 'SHOW_ART', art: arts.find(art => art.id == id) })
+        dispatch({ type: 'SHOW_ART', art: arts.find(art => art.id === parseInt(id)) })
     }
 
 }

@@ -9,6 +9,6 @@ export const loadArtists = () => {
 }
 export const findArtistById = (id) => {
     return(dispatch) => {
-        dispatch({ type: 'SHOW_ARTIST', artist: artists.find(artist => artist.id == id) })
+        dispatch({ type: 'SHOW_ARTIST', artist: artists.find(artist => artist.id === parseInt(id)) })
     }
 }

@@ -16,7 +16,7 @@ class Gallery extends Component {
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
-        if(slides.length != 0){
+        if(slides.length !== 0){
             slides[this.slideIndex-1].style.display = "block";
         }
     }
@@ -25,14 +25,14 @@ class Gallery extends Component {
         return imgs.map( (img, i) => {
             if (i === 0){
                 return (
-                    <div className="mySlides"> 
+                    <div className="mySlides" key={i}> 
                         <img src={img} alt=""/> 
                     </div>
                 )
             }
             else {
                 return (
-                    <div className="mySlides" style={{display:'none'}}> 
+                    <div className="mySlides" style={{display:'none'}} key={i}> 
                         <img src={img} alt=""/> 
                     </div>
                 )
@@ -45,8 +45,8 @@ class Gallery extends Component {
             <div>
                 {this.renderImages(this.props.imgs)}
                 
-                <a className="prev" onClick={() => this.plusSlides(-1)}>&#10094;</a>
-                <a className="next" onClick={() => this.plusSlides(1)}>&#10095;</a>
+                <button className="prev" onClick={() => this.plusSlides(-1)}>&#10094;</button>
+                <button className="next" onClick={() => this.plusSlides(1)}>&#10095;</button>
             </div>
         );
     }
