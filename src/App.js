@@ -15,6 +15,7 @@ import Art from "./components/Art";
 import Artist from "./components/Artist";
 import Activity from "./components/Activity";
 import History from "./components/History";
+import NavBar from "./components/NavBar";
 import { NavLink } from 'react-router-dom/cjs/react-router-dom.min';
 
 class App extends Component {
@@ -27,7 +28,8 @@ class App extends Component {
             <h1 >Art N' Joliette</h1>
 
           </NavLink>
-          
+          <NavBar/>
+
           <Route exact path="/" component={Home} />
           <Route exact path="/enigmas" component={buttonContainer} />
           <Route exact path="/enigmas/:id" component={Quizz} />
