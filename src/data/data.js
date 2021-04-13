@@ -28,7 +28,10 @@ export const arts = [
         "id": 2,
         "name": "Evasion",
         "description": [
-            ""
+            "La série de deux fresques murales du street artiste Astro, se trouve au plein cœur du centre des affaires du quartier de la Joliette et a été conçue entre le 28 août et le 11 septembre 2020.",
+            "Tout d’abord, Grégory Teboul plus connu sous le pseudonyme d’Astro, est un street artiste muraliste originaire de Sarcelles en banlieue parisienne. Depuis plusieurs années, il sillonne le monde afin de trouver un lieu, un mur, un bus par exemple à revisiter et à exploiter dans son œuvre, ainsi on peut retrouver quelques de ses œuvres à Miami, New York, Lisbonne et aussi à Marseille.",
+            "C’est ici qu’il a décidé, sous l’impulsion de l’Art Five Gallery, de concevoir deux fresques murales. Dans une initiative de la ville de se débarrasser de l’aspect aseptisé que dégageait le quartier de la Joliette par les nombreux bâtiments modernes alignés apparus lors de l’éclosion du projet Euroméditerranée, elle cherchait à apporter dans ce tout nouveau quartier la touche artistique emblématique de Marseille : l’art urbain. Et qui de mieux qu’Astro pour se charger du projet ?",
+            "Evasion #1 & #2 sont deux trompes l’œil, jouant sur les perspectives et la profondeur créant de véritables trous dans les murs. Il s’agit d’une technique qu’Astro maîtrise à la perfection en jouant notamment avec les ombres et ces couleurs vives qui ravivent le quartier et le noir absolu qui ouvre sur un passage infini. Sans oublier également ce motif répété sur tout le mur qui est en quelque sorte la « marque de fabrique » de l’artiste que l’on retrouve dans quasiment l’intégralité de ses œuvres."
         ],
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
         "images": [
@@ -83,7 +86,11 @@ export const arts = [
         "id": 4,
         "name": "Bleu de Chine",
         "description": [
-            ""
+            "Bleu de Chine a été réalisé par Bruno Catalano en 2018.",
+            "A travers cette œuvre, Bruno Catalano souhaite rendre hommage à tous les travailleurs du port de Marseille et à toutes celles et ceux qui ont recommencé leur vie sur les quais. Elle est installée sur les quais juste à côté de la cathédrale de la Major à Marseille. C’est une sculpture contemporaine à taille humaine en bronze réalisée par la fonderie Barthélémy art de Valence. L’utilisation du bronze montre l’éternité des matériaux face à la mort de l’homme et des personnages. Le titre « bleu de Chine » fait référence à l’uniforme des ouvriers et des marins, adopté par les populations méditerranéennes.",
+            "La sculpture représente un homme, un voyageur, un ouvrier du port, marchant droit et fière. Cette sculpture exprime l’idée du voyage, de l’avant et de la recherche du vide dans chacun de nous. Il s’agit d’une représentation des Hommes en général et de tous les voyageurs du monde.",
+            "Le personnage comporte une faille, un trou au niveau du bas ventre. Cette faille volontaire permet d’évoquer le malheur mais la quête vers l’avenir. La volonté des Hommes de survivre aux blessures et d’avancer vers le futur. La valise représente ce futur, mais également le voyage et la découverte. Le trou au niveau du bas ventre et la mallette mettent en lumière ces deux paradoxes. L’angoisse et l’incertitude sont marquées par le vide. Puis la reconstruction et l’aventure marquée par la mallette.",
+            "A travers ces personnages de sculpture, Bruno Catalano raconte son histoire et son expérience de voyageur. Bleu de Chine raconte l’histoire d’un homme traversé par les doutes, les angoisses et les questions. Mais qui malgré tout arrive toujours à se reconstruire."
         ],
         "images":[
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F142333638_814197942645417_8376132969989383353_n.jpg?alt=media&token=eb86a82c-9dda-4da3-8fda-401ddba74aec",
