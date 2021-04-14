@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux'
 import {findArtById} from '../actions/artActions'
 
+import MyCarousel from './MyCarousel'
 import Gallery from './Gallery'
 
 class Art extends Component {
@@ -19,11 +20,10 @@ class Art extends Component {
         if(!!this.props.artist) {
             return (
                 <div>
-                    <div className="bandeau">Bien joué</div>
-
                     <div className="art">
                         <div className="art-cell">
                             <div className="art-content">
+                                <MyCarousel imgs={this.props.images}/>
                                 <h2>{this.props.name}</h2>
 
                                 <div className="art-see">
@@ -37,9 +37,6 @@ class Art extends Component {
                                     src={this.props.description_audio}
                                     controls
                                 />:null}
-                            </div>
-                            <div className="art-img">
-                                <Gallery imgs={this.props.images}/>
                             </div>
                         </div>
                     </div>

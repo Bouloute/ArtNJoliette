@@ -12,6 +12,8 @@ let store = createStore(rootReducer, applyMiddleware(thunk))
 
 ReactDOM.render(
   <Provider store={store}>
+    <script src="/path/to/flickity.pkgd.min.js"></script>
+
     <App />
   </Provider>,
   document.getElementById('root')
