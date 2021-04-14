@@ -26,7 +26,6 @@ class App extends Component {
           <NavLink to="/" className="title">
             <img src={logo} alt=""></img>
             <h1 >Art N' Joliette</h1>
-
           </NavLink>
           <NavBar/>
 
