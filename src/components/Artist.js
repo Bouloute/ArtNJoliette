@@ -13,13 +13,18 @@ class Artist extends Component {
     }
 
     render() { 
+        //https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/%E2%80%94Pngtree%E2%80%94brush%20texture_5054128.png?alt=media&token=9bf1f931-d614-4202-aceb-aada7c4ef4b7
         return (
             <div>
                 <div className="art">
                     <div className="art-cell">
-                        <div className="art-img">
-                            <img src={this.props.image_url} alt={this.state.name}/>
-                        </div>
+                    <div className="imgBoxArt">
+                        <img style={{float: "left"}} src={this.props.image_url} alt={this.state.name} />
+                    </div>
+                    <div className="imgBoxArt2">
+                        <img style={{float: "left"}} src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/%E2%80%94Pngtree%E2%80%94brush%20texture_5054128.png?alt=media&token=6eb8473c-4dc8-4ee3-a433-69314682468d" alt=""/>
+                    </div>
+
                         <div className="art-content">
                             <h2>{this.props.name}</h2>
 
@@ -34,7 +39,7 @@ class Artist extends Component {
                         </div>
                     </div>
                 </div>
-                
+                <a href='https://pngtree.com/so/brush-clipart'>brush clipart png from pngtree.com</a>
             </div>
         );
     }
