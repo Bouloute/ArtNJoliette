@@ -18,17 +18,16 @@ class Artist extends Component {
             <div>
                 <div className="art">
                     <div className="art-cell">
-                    <div className="imgBoxArt">
-                        <img style={{float: "left"}} src={this.props.image_url} alt={this.state.name} />
-                    </div>
-                    <div className="imgBoxArt2">
+                        <div className="art-content">
+                        <div className="imgBoxArt">
+                            <img style={{float: "left"}} src={this.props.image_url} alt={this.state.name} />
+                        </div>
+                        <div className="imgBoxArt2">
                         <img style={{float: "left"}} src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/%E2%80%94Pngtree%E2%80%94brush%20texture_5054128.png?alt=media&token=fb55881c-e832-4e2d-abf0-81dd2c03a678" alt=""/>
                     </div>
 
-                        <div className="art-content">
                             <h2>{this.props.name}</h2>
 
-                            <br/>
                             <div className="art-sum">
                                 {!!this.props.description?this.props.description.map(d => <p>{d}</p> ):null}
                             </div>

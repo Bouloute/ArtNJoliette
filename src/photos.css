@@ -22,14 +22,15 @@
 
 .imgBoxArt{
     position: absolute;
-    width: 360px;
+    width: 600px;
+    margin-top: 40px;
     overflow: hidden;
     float: left;
 }
 
 .imgBoxArt2{
-    width: 670px;
-    height: 550px;
+    width: 620px;    
+    margin-top: 40px;
     mix-blend-mode: screen;
     float: left;
 }
