@@ -45,7 +45,6 @@ class Art extends Component {
                         <iframe src={this.props.map_url} title={this.props.name}></iframe>
                     </div>
                     
-                    
                 </div>
             );
         }

@@ -16,8 +16,9 @@
 }
 
 .art audio {
-    width: 100%;
-    margin-top: 1em;;
+    top: 775px;
+    position: absolute;
+    left: 90px;
 }
 
 .carte {
