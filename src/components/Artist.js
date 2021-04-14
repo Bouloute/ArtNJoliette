@@ -22,7 +22,7 @@ class Artist extends Component {
                         <img style={{float: "left"}} src={this.props.image_url} alt={this.state.name} />
                     </div>
                     <div className="imgBoxArt2">
-                        <img style={{float: "left"}} src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/%E2%80%94Pngtree%E2%80%94brush%20texture_5054128.png?alt=media&token=6eb8473c-4dc8-4ee3-a433-69314682468d" alt=""/>
+                        <img style={{float: "left"}} src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/%E2%80%94Pngtree%E2%80%94brush%20texture_5054128.png?alt=media&token=fb55881c-e832-4e2d-abf0-81dd2c03a678" alt=""/>
                     </div>
 
                         <div className="art-content">

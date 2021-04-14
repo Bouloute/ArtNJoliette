@@ -28,7 +28,7 @@
 }
 
 .imgBoxArt2{
-    width: 580px;
+    width: 670px;
     height: 550px;
     mix-blend-mode: screen;
     float: left;
@@ -36,7 +36,6 @@
 
 
 .imgBoxArt2 img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
+    transform: translate(-20px, -20px);
 }

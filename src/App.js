@@ -18,6 +18,9 @@ import History from "./components/History";
 import NavBar from "./components/NavBar";
 import { NavLink } from 'react-router-dom/cjs/react-router-dom.min';
 
+//TODO import all css?
+import './art.css'
+
 class App extends Component {
   render() {
     return (
