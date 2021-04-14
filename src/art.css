@@ -20,6 +20,11 @@
     position: absolute;
     left: 90px;
 }
+audio.artist {
+    top: 550px;
+    position: absolute;
+    left: 90px;
+}
 
 .carte {
     margin: auto;

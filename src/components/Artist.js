@@ -32,6 +32,7 @@ class Artist extends Component {
                             </div>
                             {!!this.props.description_audio?<audio
                                 src={this.props.description_audio}
+                                className="artist"
                                 controls
                             />:null}
                         </div>
