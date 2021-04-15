@@ -162,7 +162,7 @@ export const artists = [
             "Aujourd'hui il est un artiste passionné par la transformation de la matière et travaille avec un large panel de matériaux : le bois, le métal, le béton, la pierre. Adepte de modernité il n'hésite pas à s'entourer de professionnels tels des graphistes, peintres ou spécialistes de la 3D."
         ],
         "description_audio": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2FVocal-pr%C3%A9sentation-Jayet.mp3?alt=media&token=09a48ddf-60d3-4d6a-a4f4-6b5ec4bcae66",
-        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fjayet.jpg?alt=media&token=1075392b-17e1-4574-b75e-941349be093e",
+        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fbruno-catalano-bio2.jpg?alt=media&token=76541a39-cef6-497c-9c29-bbad4d9cbd4d",
         "art": {
             "id": 1
         }
