@@ -59,10 +59,6 @@ class Quizz extends Component {
                             onDone={this.correctAnswer}
                         />
                         <div>
-                        <Puzzle 
-                            image={this.props.enigma}
-                            onDone={this.correctAnswer}
-                        /></div>
                     </div>
                 )
             case "Audio":
