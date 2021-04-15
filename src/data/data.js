@@ -117,7 +117,7 @@ export const artists = [
             "Il s’initie ensuite à la sculpture à Marseille en 1981 où il pratique une formation de modelage et de dessin. Puis ouvre son atelier en 1985 en y aménageant un four afin de cuire ses premières figures en argile. Bruno Catalano réalise de grandes sculptures en bronze assez conventionnelles qui se transforment et deviennent de plus en plus expressives au fil de ses créations. En 2004 il créer une faille involontaire dans l’une de ses sculptures représentant Cyrano. Cette erreur lui donne l’idée de retirer la poitrine du personnage et d’y laisser un vide.",
             "S’ensuit alors une nouvelle méthode de création artistique. Il réalise ensuite toute une série de personnes marquées par des failles. En 2013 il expose à l’occasion de l’année de la Capitale Européenne de la Culture à Marseille des sculptures de personnage à taille humaine sur le port de la ville. Dont l’œuvre « Bleu de Chine ». Ses sculptures représentant des manques, des erreurs, des failles font aujourd’hui régulièrement l’objet d’expositions dans le monde entier."
         ],
-        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fbruno-catalano-bio2.jpg?alt=media&token=76541a39-cef6-497c-9c29-bbad4d9cbd4d",
+        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fbruno-catalano-bio2.jpg?alt=media&token=7e7dc8ca-adc1-4d8c-89a5-2883a9f0086c",
         "art": {
             "id": 4
         }
