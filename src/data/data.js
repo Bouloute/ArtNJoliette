@@ -117,7 +117,7 @@ export const artists = [
             "Il s’initie ensuite à la sculpture à Marseille en 1981 où il pratique une formation de modelage et de dessin. Puis ouvre son atelier en 1985 en y aménageant un four afin de cuire ses premières figures en argile. Bruno Catalano réalise de grandes sculptures en bronze assez conventionnelles qui se transforment et deviennent de plus en plus expressives au fil de ses créations. En 2004 il créer une faille involontaire dans l’une de ses sculptures représentant Cyrano. Cette erreur lui donne l’idée de retirer la poitrine du personnage et d’y laisser un vide.",
             "S’ensuit alors une nouvelle méthode de création artistique. Il réalise ensuite toute une série de personnes marquées par des failles. En 2013 il expose à l’occasion de l’année de la Capitale Européenne de la Culture à Marseille des sculptures de personnage à taille humaine sur le port de la ville. Dont l’œuvre « Bleu de Chine ». Ses sculptures représentant des manques, des erreurs, des failles font aujourd’hui régulièrement l’objet d’expositions dans le monde entier."
         ],
-        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2Fbruno-catalano-bio.jpg?alt=media&token=c8a88737-50dd-4799-8ceb-440ffcb4e9f7",
+        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fbruno-catalano-bio2.jpg?alt=media&token=76541a39-cef6-497c-9c29-bbad4d9cbd4d",
         "art": {
             "id": 4
         }
@@ -162,7 +162,7 @@ export const artists = [
             "Aujourd'hui il est un artiste passionné par la transformation de la matière et travaille avec un large panel de matériaux : le bois, le métal, le béton, la pierre. Adepte de modernité il n'hésite pas à s'entourer de professionnels tels des graphistes, peintres ou spécialistes de la 3D."
         ],
         "description_audio": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2FVocal-pr%C3%A9sentation-Jayet.mp3?alt=media&token=09a48ddf-60d3-4d6a-a4f4-6b5ec4bcae66",
-        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fbruno-catalano-bio2.jpg?alt=media&token=76541a39-cef6-497c-9c29-bbad4d9cbd4d",
+        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fjayet.jpg?alt=media&token=1075392b-17e1-4574-b75e-941349be093e",
         "art": {
             "id": 1
         }
