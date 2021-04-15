@@ -7,7 +7,7 @@ class MyCarousel extends Component {
             <Carousel slide={true} controls={false}>
                 {this.props.imgs.map( (img, i) => {
                     return(
-                        <Carousel.Item interval={2000} style={{width:'500px'}} key={i}>
+                        <Carousel.Item interval={4000} style={{width:'500px'}} key={i}>
                             <img
                             className="d-block w-100"
                             src={img}
