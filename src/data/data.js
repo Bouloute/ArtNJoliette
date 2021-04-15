@@ -36,8 +36,9 @@ export const arts = [
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
         "images": [
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F142270641_2861122120773263_7514090664490430334_n.jpg?alt=media&token=8ac125f4-d07a-46d6-be87-a99371460d54",
-            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F164476336_352693589414464_8548551245548174931_n%20(1).jpg?alt=media&token=a2b764e0-6c98-43b4-9a40-1ac9191e01ae",
-            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F164245752_900304334096900_4985764523626814689_n.jpg?alt=media&token=92a72eb7-00e5-4212-94b5-8954c38c6e3f"
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F164245752_900304334096900_4985764523626814689_n.jpg?alt=media&token=4b0374bd-a12c-4b6d-bc31-76a792d94168",
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F164476336_352693589414464_8548551245548174931_n.jpg?alt=media&token=14a2f39f-c7fa-41d5-be83-7c56b71bf1f6",
+            "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2F164205057_284518713030557_3232223702319907855_n.png?alt=media&token=d6e83bba-5a47-46d0-8e79-baf53bb5101f"
         ],
         "enigma": "Quel est le procédé artistique qui réunit ces 4 oeuvres ?",
         "enigma_type": "Quizz",
