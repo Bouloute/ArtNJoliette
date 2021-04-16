@@ -79,8 +79,9 @@
 }
 
 
+/*TODO NO BUENO, change the background to dynamic*/
 .labyrinth {
-    background: url("https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fmaze.jpg?alt=media&token=d3917a67-0906-4871-97ee-855a8d0d0f0a") no-repeat;
+    background: url("https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2F%C3%A9nigme%20labyrinthe.png?alt=media&token=fe84de93-2337-49cb-b80c-18e6c6bdfbb7") no-repeat;
     background-size: 300px;
     background-position: center;
     display: flex;
@@ -89,12 +90,12 @@
 }
 
 div.react-pattern-lock__point-inner {
-    background: grey;
+    background: lightgray;
     border-radius: 50%;
 }
 
 div.react-pattern-lock__connector {
-    background: grey;
+    background: lightgray;
 }
 
 h2 {

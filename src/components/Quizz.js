@@ -80,14 +80,15 @@ class Quizz extends Component {
                         <PatternLock
                             width={ 300 }
                             //style={"margin"="auto"}
-                            size={ 5 }
+                            size={ 7 }
                             path={ this.state.drawn_path }
                             allowJumping = { false}
                             onChange={ (pattern) => {
                                 this.setState({ drawn_path : pattern });
+                                
                             }}
                             onFinish={() => {
-                                if (this.state.drawn_path.join("-") === "3-2-1-0-5-10-15-16-17-22-21") {
+                                if (this.state.drawn_path.join("-") === "4-11-12-13-20-27-26-25-32-39-46-45-44-43-36-29-30-23-24-17-10-9-8-1-0-7-14-21-28-35") {
                                     this.correctAnswer()
                                 } else {
                                     this.onDrawReset();
