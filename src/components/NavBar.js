@@ -10,7 +10,7 @@ class NavBar extends Component {
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-item nav-link active" href="/history">Point Histoire</a>
+                        <a className="nav-item nav-link" href="/history">Point Histoire</a>
                         <a className="nav-item nav-link" href="/enigmas">Jeux</a>
                         <a className="nav-item nav-link" href="/artists">Aterliers D'Artistes</a>
                         <a className="nav-item nav-link" href="/activity">Galerie Photos</a>

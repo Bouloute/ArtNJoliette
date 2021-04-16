@@ -421,7 +421,8 @@ body {
 	flex-direction: column;
 	padding-left: 0;
 	margin-bottom: 0;
-	list-style: none
+	list-style: none;
+	justify-content: space-between;
 }
 
 .navbar-nav .nav-link {
@@ -483,8 +484,8 @@ body {
 		left: auto
 	}
 	.navbar-expand-lg .navbar-nav .nav-link {
-		padding-right: .5rem;
-		padding-left: .5rem
+		padding-right: 7%;
+		padding-left: 7%;
 	}
 	.navbar-expand-lg>.container,
 	.navbar-expand-lg>.container-fluid {
@@ -494,7 +495,8 @@ body {
 	.navbar-expand-lg .navbar-collapse {
 		display: -webkit-box!important;
 		display: -ms-flexbox!important;
-		display: flex!important;
+		display: flow-root;
+		justify-content: space-between;
 		-ms-flex-preferred-size: auto;
 		flex-basis: auto
 	}
