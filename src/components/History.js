@@ -31,10 +31,7 @@ class History extends Component {
 
                     </div>
 
-                    {/*<Gallery imgs={[
-                        "",
-                        ""
-                    ]}/>
+                    {/*
                     
                     brush PNG Designed By 千图网 from <a href="https://pngtree.com/">Pngtree.com</a>*/}
                     {/*<div className="imgBox1">

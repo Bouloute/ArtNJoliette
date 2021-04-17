@@ -15,9 +15,9 @@ class Artist extends Component {
     render() { 
         return (
             <div>
-                <div className="art">
-                    <div className="art-cell">
-                        <div className="art-content">
+                <div className="description-card">
+                    <div className="description-card-cell">
+                        <div className="description-card-content">
                             <div className="imgBoxArt">
                                 <img style={{float: "left"}} src={this.props.image_url} alt={this.state.name} />
                             </div>
@@ -27,7 +27,7 @@ class Artist extends Component {
 
                             <h2>{this.props.name}</h2>
 
-                            <div className="art-sum">
+                            <div className="description-card-sum">
                                 {!!this.props.description?this.props.description.map(d => <p>{d}</p> ):null}
                             </div>
                             {!!this.props.description_audio?<audio

@@ -2,8 +2,6 @@
     text-align: center;
 }
 
-
-
 .bandeau {
     width: 90%;
     margin: auto;
@@ -16,11 +14,6 @@
     font-weight: 700;
     letter-spacing: -0.05em;
 }
-
-
-
-
-
 
 :root {
     --white: #ffffff;
@@ -48,7 +41,6 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-/* max width 400?*/
 .cards {
     text-align: center;
 }
@@ -80,8 +72,6 @@ body {
     z-index: 0;
 }
 
-
-
 .card .card-title h2 {
     font-size: 18px;
     font-weight: 700;
@@ -93,4 +83,9 @@ body {
 a {
     text-decoration: none;
     color: var(--darkGrey);
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
 }

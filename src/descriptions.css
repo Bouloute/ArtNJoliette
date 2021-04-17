@@ -1,4 +1,4 @@
-.art {
+.description-card {
     width: 90%;
     margin: auto;
     margin-bottom: 2em;
@@ -9,17 +9,18 @@
     letter-spacing: -0.05em;
 }
 
-.art img {
+.description-card img {
     width: 100%;
     margin-top: 100px;
     margin-bottom: 20px;
 }
 
-.art audio {
+.description-card audio {
     top: 775px;
     position: absolute;
     left: 90px;
 }
+
 audio.artist {
     top: 550px;
     position: absolute;
@@ -37,24 +38,24 @@ audio.artist {
     height: 100%;
 }
 
-.art-cell {
+.description-card-cell {
     position: relative;
     display: flex;
     margin-right: 1px;
     box-sizing: border-box;
 }
 
-.art-img {
+.description-card-img {
     width: 100%;
 }
 
-.art-content {
+.description-card-content {
     width: 100%;
     overflow: hidden;
     text-align: center;
 }
 
-.art-sum {
+.description-card-sum {
     margin: 50px;
     font-size: 25px;
     text-align: justify;

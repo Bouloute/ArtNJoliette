@@ -3,7 +3,6 @@ import {connect} from 'react-redux'
 import {findArtById} from '../actions/artActions'
 
 import MyCarousel from './MyCarousel'
-import Gallery from './Gallery'
 
 class Art extends Component {
     constructor(props) {
@@ -20,17 +19,17 @@ class Art extends Component {
         if(!!this.props.artist) {
             return (
                 <div>
-                    <div className="art">
-                        <div className="art-cell">
-                            <div className="art-content">
+                    <div className="description-card">
+                        <div className="description-card-cell">
+                            <div className="description-card-content">
                                 <MyCarousel imgs={this.props.images}/>
                                 <h2>{this.props.name}</h2>
 
-                                <div className="art-see">
+                                <div className="description-card-see">
                                     par <a href={"/artists/" +this.props.artist.id}>{this.props.artist.name}</a>
                                 </div>
                                 <br/>
-                                <div className="art-sum">
+                                <div className="description-card-sum">
                                     {this.props.description.map(d => <p>{d}</p> )}
                                 </div>
                                 {!!this.props.description_audio?<audio

@@ -19,7 +19,8 @@ import NavBar from "./components/NavBar";
 import { NavLink } from 'react-router-dom/cjs/react-router-dom.min';
 
 //TODO import all css?
-import './art.css'
+import './descriptions.css'
+import './Quizz.css'
 
 class App extends Component {
   render() {
