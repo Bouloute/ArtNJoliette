@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Gallery from './Gallery'
+import MyCarousel from './MyCarousel'
 
 class Activity extends Component {
     render() {
@@ -7,7 +7,8 @@ class Activity extends Component {
             <div className="quizz">
                 <div className="quizz-title ">
                     <h2>Sortie du 24 mars en partenariat avec le centre Leo Lagrange</h2>
-                    <Gallery imgs={[
+                    
+                    <MyCarousel imgs={[
                         "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/mediation%2024%2Fsignal-2021-04-02-163235_005.jpeg?alt=media&token=9c5c06af-db1c-4984-9abe-588bb3f9e2ca",
                         "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/mediation%2024%2Fsignal-2021-04-02-163235_006.jpeg?alt=media&token=ce27b6ed-8e83-4df7-b28e-57c944760990",
 
