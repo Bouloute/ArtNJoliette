@@ -4,7 +4,7 @@ import {findArtById} from '../actions/artActions'
 
 import Puzzle from 'react-image-puzzle';
 import PatternLock from "react-pattern-lock";
-import Gallery from './Gallery';
+import MyCarousel from './MyCarousel';
 
 class Quizz extends Component {
     constructor(props) {
@@ -104,7 +104,7 @@ class Quizz extends Component {
                             <h2>
                                 {this.props.enigma}
                             </h2>
-                            <Gallery imgs={this.props.enigma_photos}/>
+                            <MyCarousel imgs={this.props.enigma_photos}/>
                         </div>
                         <form onSubmit={this.handleSubmit} className="answer">
                             <input name="answer" type="text" placeholder="Ma Réponse" onChange={this.handleChange}></input>
