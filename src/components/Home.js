@@ -1,7 +1,12 @@
-import riddle from '../png/puzzle.png';
+import puzzle from '../png/puzzle.png';
 import history from '../png/history.png';
 import artists from '../png/color-palette.png';
 import activity from '../png/camera.png';
+
+import puzzle_colour from '../png/puzzle-colour.png';
+import history_colour from '../png/history-colour.png';
+import artists_colour from '../png/color-palette-colour.png';
+import activity_colour from '../png/camera-colour.png';
 
 import '../Home.css';
 import Card from './Card'
@@ -22,10 +27,10 @@ const Home = () => {
             </div>
             
             <div className="cards">
-                <Card image={history} title="Point Histoire" url="/history"/>
-                <Card image={riddle} title="Jeux" url="/enigmas"/>
-                <Card image={artists} title="Ateliers d'Artistes" url="/artists"/>
-                <Card image={activity} title="Photos" url="/activity"/>
+                <Card image={history} image_colour={history_colour} title="Point Histoire" url="/history"/>
+                <Card image={puzzle} image_colour={puzzle_colour} title="Jeux" url="/enigmas"/>
+                <Card image={artists} image_colour={artists_colour} title="Ateliers d'Artistes" url="/artists"/>
+                <Card image={activity} image_colour={activity_colour} title="Photos" url="/activity"/>
             </div>
             
             <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
