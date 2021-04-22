@@ -13,24 +13,32 @@
     margin: auto;
     margin-bottom: 10px;
     border-radius: 10px;
-    width: 70%;
-
-    background-color: var(--buttons);
+    width: 40%;
+    height: 100px;
+    margin-top: 30px;
     padding: 6px 15px 10px;
     position: relative;
     z-index: 0;
+    border: 5px;
+    border-style: double;
+}
+
+.left, .right {
+    width: 50%;
 }
 
 .left {
     float: left;
-    width: 50%;
 }
 
 .right {
     float: right;
-    width: 50%;
 }
 
-.left h2, .right h2{
-    height: 100px;
+.left .button .button-title {
+    left: 20%;
+}
+
+.right .button .button-title {
+    right: 20%
 }
