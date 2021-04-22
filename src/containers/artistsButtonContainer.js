@@ -23,7 +23,7 @@ class artistsButtonContainer extends Component {
             <div>
                 <div className="left">
                     <h2>Biographies et interviews des artistes des œuvres de La Joliette</h2>
-                    {this.renderButtons(this.props.artistReducers.artists, "/artists/")}{/*TODO url -> artist */}
+                    {this.renderButtons(this.props.artistReducers.artists, "/artist/")}
                 </div>
                 <div className="right">
                     <h2>Descriptions des œuvres de La Joliette</h2>
