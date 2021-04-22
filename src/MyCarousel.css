@@ -19,11 +19,12 @@ html {
 	-webkit-tap-highlight-color: transparent
 }
 
-.carousel {
+.carousel.art {
 	float: left;
 	min-height: 870px;
 	margin-right: 20px;
 	margin-top: 140px;
+	width: 500px;
 }
 
 .carousel.pointer-event {

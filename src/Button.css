@@ -20,3 +20,17 @@
     position: relative;
     z-index: 0;
 }
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+.left h2, .right h2{
+    height: 100px;
+}
