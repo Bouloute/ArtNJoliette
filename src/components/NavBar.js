@@ -1,19 +1,31 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { NavLink } from 'react-router-dom';
+
 import "../Navbar.css"
 
+
+import { NavLink as Link } from 'react-router-dom';
+import styled from 'styled-components'
+
 class NavBar extends Component {
-    
+    state ={
+        "active": ""
+    }
+
+    testing = (event) => {
+        this.setState({
+            "active": " active"        
+        })
+    }
+
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-item nav-link" href="/history">Point Histoire</a>
-                        <a className="nav-item nav-link" href="/enigmas">Jeux</a>
-                        <a className="nav-item nav-link" href="/artists">Aterliers D'Artistes</a>
-                        <a className="nav-item nav-link" href="/activity">Galerie Photos</a>
+                        <NavLink className="nav-item nav-link" to="/history" activeStyle>Point Histoire</NavLink>
+                        <NavLink className="nav-item nav-link" to="/enigmas" activeStyle>Jeux</NavLink>
+                        <NavLink className="nav-item nav-link" to="/artists" activeStyle>Aterliers D'Artistes</NavLink>
+                        <NavLink className="nav-item nav-link" to="/activity" activeStyle>Galerie Photos</NavLink>
                     </div>
                 </div>
             </nav>
@@ -21,11 +33,19 @@ class NavBar extends Component {
     }
 }
 
-
-/*const mapsStateToProps = (state) => {
-    return state.artistsReducers //artReducers
-}
-
-
-export default connect(mapsStateToProps)(NavBar);*/
 export default NavBar;
+
+
+
+const NavLink = styled(Link)`
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  &.active {
+    background: black;
+  }
+`;
