@@ -220,6 +220,7 @@ body {
 	margin-bottom: 0;
 	list-style: none;
 	justify-content: space-between;
+	background: url('https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/blue-pattern-background-png-Free-Images-Transparent.png?alt=media&token=e7b5d0fb-f56c-4d90-91e5-8253c5bbc4ac');
 }
 
 .navbar-nav .nav-link {
@@ -388,6 +389,7 @@ body {
 	background:lightblue;
 	width: 250px;
 	text-align: center;
+	opacity: 85%;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
