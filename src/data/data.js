@@ -92,6 +92,7 @@ export const arts = [
             "Le personnage comporte une faille, un trou au niveau du bas ventre. Cette faille volontaire permet d’évoquer le malheur mais la quête vers l’avenir. La volonté des Hommes de survivre aux blessures et d’avancer vers le futur. La valise représente ce futur, mais également le voyage et la découverte. Le trou au niveau du bas ventre et la mallette mettent en lumière ces deux paradoxes. L’angoisse et l’incertitude sont marquées par le vide. Puis la reconstruction et l’aventure marquée par la mallette.",
             "A travers ces personnages de sculpture, Bruno Catalano raconte son histoire et son expérience de voyageur. Bleu de Chine raconte l’histoire d’un homme traversé par les doutes, les angoisses et les questions. Mais qui malgré tout arrive toujours à se reconstruire."
         ],
+        "description_audio": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2Fart.m4a?alt=media&token=95508da6-9dc3-4b36-8757-a3280f0aa32f",
         "images":[
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F142333638_814197942645417_8376132969989383353_n.jpg?alt=media&token=eb86a82c-9dda-4da3-8fda-401ddba74aec",
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F164151580_202490001210117_4685249725074018271_n.jpg?alt=media&token=21f5d8f2-5075-4d68-ad44-c122f1e8b33b",
@@ -117,6 +118,7 @@ export const artists = [
             "Il s’initie ensuite à la sculpture à Marseille en 1981 où il pratique une formation de modelage et de dessin. Puis ouvre son atelier en 1985 en y aménageant un four afin de cuire ses premières figures en argile. Bruno Catalano réalise de grandes sculptures en bronze assez conventionnelles qui se transforment et deviennent de plus en plus expressives au fil de ses créations. En 2004 il créer une faille involontaire dans l’une de ses sculptures représentant Cyrano. Cette erreur lui donne l’idée de retirer la poitrine du personnage et d’y laisser un vide.",
             "S’ensuit alors une nouvelle méthode de création artistique. Il réalise ensuite toute une série de personnes marquées par des failles. En 2013 il expose à l’occasion de l’année de la Capitale Européenne de la Culture à Marseille des sculptures de personnage à taille humaine sur le port de la ville. Dont l’œuvre « Bleu de Chine ». Ses sculptures représentant des manques, des erreurs, des failles font aujourd’hui régulièrement l’objet d’expositions dans le monde entier."
         ],
+        "description_audio": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2Fbio%20bruno%20catalano.m4a?alt=media&token=3bff4c54-8275-4d25-9fce-106b0181e614",
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fbruno-catalano-bio2.jpg?alt=media&token=7e7dc8ca-adc1-4d8c-89a5-2883a9f0086c",
         "art": {
             "id": 4
