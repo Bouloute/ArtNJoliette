@@ -219,13 +219,13 @@ body {
 	padding-left: 0;
 	margin-bottom: 0;
 	list-style: none;
-	justify-content: space-between;
-	background: url('https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/blue-pattern-background-png-Free-Images-Transparent.png?alt=media&token=e7b5d0fb-f56c-4d90-91e5-8253c5bbc4ac');
+	justify-content: space-around;
+	background: url('https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/pngfind.com-wave-clipart-png-371347.png?alt=media&token=01b8379e-cd9f-464e-abe8-d223439483d4');
 }
 
 .navbar-nav .nav-link {
 	padding-right: 0;
-	padding-left: 0
+	padding-left: 0;
 }
 
 .navbar-text {
@@ -385,9 +385,8 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color: rgba(0, 0, 0, .5);
 	background:lightblue;
-	width: 250px;
+	width: 150px;
 	text-align: center;
 	opacity: 85%;
 }
