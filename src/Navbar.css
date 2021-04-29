@@ -387,6 +387,7 @@ body {
 .navbar-light .navbar-nav .nav-link {
 	background:lightblue;
 	width: 15%;
+	min-width: 130px;
 	text-align: center;
 	opacity: 85%;
 }
