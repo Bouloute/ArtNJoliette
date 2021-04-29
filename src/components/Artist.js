@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux'
 import {findArtistById} from '../actions/artistActions'
+import {findArtById} from '../actions/artActions'
 
 class Artist extends Component {
     constructor(props) {
@@ -8,8 +9,7 @@ class Artist extends Component {
         this.state = {
             "name": "Loading"
         }
-
-        this.props.findArtistById(this.props.match.params.id)
+        isArt()?this.props.findArtById(this.props.match.params.id):this.props.findArtistById(this.props.match.params.id)
     }
 
     render() { 
@@ -26,7 +26,9 @@ class Artist extends Component {
                             </div>
 
                             <h2>{this.props.name}</h2>
-
+                            
+                            {!!this.props.artist?(<div className="description-card-see"> par <a href={"/artist/" + this.props.artist.id}>{this.props.artist.name}</a></div>):null}
+                            
                             <div className="description-card-sum">
                                 {!!this.props.description?this.props.description.map(d => <p>{d}</p> ):null}
                             </div>
@@ -44,8 +46,12 @@ class Artist extends Component {
     }
 }
 
-const mapsStateToProps = (state) => {
-    return state.artistReducers.artist
+const isArt = () => {
+    return !!window.location.href.includes("art/")
 }
 
-export default connect(mapsStateToProps, {findArtistById})(Artist);
+const mapsStateToProps = (state) => {
+    return isArt()?state.artReducers.art:state.artistReducers.artist
+}
+
+export default connect(mapsStateToProps, {findArtistById, findArtById})(Artist);

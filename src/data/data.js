@@ -15,6 +15,7 @@ export const arts = [
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2F142200511_454464812245572_5906864882134872899_n.jpg?alt=media&token=63fcf37c-9d43-4289-8885-a1acd2d0061c",
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2F142159227_478606383309340_1270366651172879512_n.jpg?alt=media&token=28034b9f-e4b0-4fe5-a7fa-5d7832456419"
         ],
+        "image_url":"https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fourse.jpg?alt=media&token=92778884-ff46-42a4-9d35-126afd0fbc74",
         "enigma": "Ceci est un test.",
         "enigma_type": "Labyrinth",
         "enigma_name": "C'est Beau la Vie",
