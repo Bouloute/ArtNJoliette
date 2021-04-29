@@ -6,10 +6,10 @@ import '../MyCarousel.css'
 class MyCarousel extends Component {
     render() {
         return (
-            <Carousel fade={true} controls={false} style={{float:"left"}}>
+            <Carousel fade={true} controls={false}>
                 {this.props.imgs.map( (img, i) => {
                     return(
-                        <Carousel.Item interval={10000} style={{width:'500px'}} key={i}>
+                        <Carousel.Item interval={10000} key={i}>
                             <img
                             className="d-block w-100"
                             src={img}

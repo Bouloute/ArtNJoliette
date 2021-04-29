@@ -24,7 +24,7 @@ html {
 	min-height: 870px;
 	margin-right: 20px;
 	margin-top: 140px;
-	width: 500px;
+	width: 100%;
 }
 
 .carousel.pointer-event {
@@ -35,7 +35,6 @@ html {
 .carousel-inner {
 	position: relative;
 	width: 100%;
-	overflow: hidden
 }
 
 .carousel-inner::after {
@@ -48,13 +47,29 @@ html {
 	position: relative;
 	display: none;
 	float: left;
-	width: 100%;
+	width: 40px;
 	margin-right: -100%;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	transition: -webkit-transform .6s ease-in-out;
 	transition: transform .6s ease-in-out;
 	transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out
+}
+
+img.d-block.w-100{
+	/*width: 500px;*/
+
+	position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    /* list-style: none; */
+    background: black;
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -172,7 +187,6 @@ html {
 .carousel-indicators {
 	position: absolute;
 	right: 0;
-	bottom: 0;
 	left: 0;
 	z-index: 15;
 	display: -ms-flexbox;
@@ -182,7 +196,8 @@ html {
 	padding-left: 0;
 	margin-right: 15%;
 	margin-left: 15%;
-	list-style: none
+	list-style: none;
+	background: black;
 }
 
 .carousel-indicators li {
