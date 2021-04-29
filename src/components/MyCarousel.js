@@ -6,7 +6,7 @@ import '../MyCarousel.css'
 class MyCarousel extends Component {
     render() {
         return (
-            <Carousel fade={true} controls={false}>
+            <Carousel controls={false}>
                 {this.props.imgs.map( (img, i) => {
                     return(
                         <Carousel.Item interval={10000} key={i}>
