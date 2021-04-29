@@ -23,7 +23,7 @@ class NavBar extends Component {
                     <div className="navbar-nav">
                         <NavLink className="nav-item nav-link" to="/history" activeStyle>Point Histoire</NavLink>
                         <NavLink className="nav-item nav-link" to="/enigmas" activeStyle>Jeux</NavLink>
-                        <NavLink className="nav-item nav-link" to="/artists" activeStyle>Aterliers D'Artistes</NavLink>
+                        <NavLink className="nav-item nav-link" to="/artists" activeStyle>Ateliers D'Artistes</NavLink>
                         <NavLink className="nav-item nav-link" to="/activity" activeStyle>Galerie Photos</NavLink>
                     </div>
                 </div>
