@@ -21,10 +21,10 @@ class NavBar extends Component {
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <NavLink className="nav-item nav-link" to="/history" activeStyle>Point Histoire</NavLink>
-                        <NavLink className="nav-item nav-link" to="/enigmas" activeStyle>Jeux</NavLink>
-                        <NavLink className="nav-item nav-link" to="/artists" activeStyle>Ateliers D'Artistes</NavLink>
-                        <NavLink className="nav-item nav-link" to="/activity" activeStyle>Galerie Photos</NavLink>
+                        <NavLink className="nav-item nav-link" to="/history" >Point Histoire</NavLink>
+                        <NavLink className="nav-item nav-link" to="/enigmas" >Jeux</NavLink>
+                        <NavLink className="nav-item nav-link" to="/artists" >Ateliers D'Artistes</NavLink>
+                        <NavLink className="nav-item nav-link" to="/activity" >Galerie Photos</NavLink>
                     </div>
                 </div>
             </nav>
