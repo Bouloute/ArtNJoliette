@@ -101,7 +101,7 @@ export const arts = [
             "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F142141764_1041633756333999_8144797071934947440_n.jpg?alt=media&token=7fd61931-24b3-47c8-bd8e-2c948087ef5b"
         ],
         "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F142333638_814197942645417_8376132969989383353_n.jpg?alt=media&token=eb86a82c-9dda-4da3-8fda-401ddba74aec",
-        "enigma": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F164151580_202490001210117_4685249725074018271_n.jpg?alt=media&token=8d68a953-266a-4c6b-95c0-b6bd21974e59",
+        "enigma": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2F142333638_814197942645417_8376132969989383353_n.jpg?alt=media&token=eb86a82c-9dda-4da3-8fda-401ddba74aec",
         "enigma_type": "Puzzle",
         "enigma_name": "J'ai le Blues",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.7339445360412!2d5.361296915491653!3d43.298893079135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c0c2c6b19e5f%3A0xe693936cd108d2b6!2sBoulevard%20Jacques%20Saade%2C%2013002%20Marseille%2C%20France!5e0!3m2!1sen!2sus!4v1611855036218!5m2!1sen!2sus",

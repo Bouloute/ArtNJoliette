@@ -123,9 +123,7 @@ class Quizz extends Component {
     render() {
         return (
             <div className="quizz">
-                
                 {this.renderButtonFromType(this.props.enigma_type)}
-                
             </div>
         );
     }

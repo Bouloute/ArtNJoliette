@@ -60,3 +60,7 @@ div.react-pattern-lock__point-inner {
 div.react-pattern-lock__connector {
     background: lightgray;
 }
+
+.testing div{
+    margin: auto;
+}
