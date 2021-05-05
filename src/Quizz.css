@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+.quizz h2 {
+    text-align: center;
+}
+
 .quizzes {
     text-align: left;
     transition: all 0.3s 0s ease-in;

@@ -114,17 +114,33 @@ export const arts = [
 
 export const artists = [
     {
-        "id": 1,
-        "name": "Bruno Catalano",
+        "id": 4,
+        "name": "Jayet",
         "description": [
-            "Bruno Catalano est un artiste sculpteur français né à Khouribga en 1960. En 1970 sa famille quitte le Maroc pour aller s’installer en France où il travaille en tant que marin pour la société nationale maritime Corse-Méditerranée durant 4 ans. C’est à travers cette expérience qu’il trouvera par la suite ses inspirations artistiques.",
-            "Il s’initie ensuite à la sculpture à Marseille en 1981 où il pratique une formation de modelage et de dessin. Puis ouvre son atelier en 1985 en y aménageant un four afin de cuire ses premières figures en argile. Bruno Catalano réalise de grandes sculptures en bronze assez conventionnelles qui se transforment et deviennent de plus en plus expressives au fil de ses créations. En 2004 il créer une faille involontaire dans l’une de ses sculptures représentant Cyrano. Cette erreur lui donne l’idée de retirer la poitrine du personnage et d’y laisser un vide.",
-            "S’ensuit alors une nouvelle méthode de création artistique. Il réalise ensuite toute une série de personnes marquées par des failles. En 2013 il expose à l’occasion de l’année de la Capitale Européenne de la Culture à Marseille des sculptures de personnage à taille humaine sur le port de la ville. Dont l’œuvre « Bleu de Chine ». Ses sculptures représentant des manques, des erreurs, des failles font aujourd’hui régulièrement l’objet d’expositions dans le monde entier."
+            "Jayet est un artiste plasticien de style pop-art. Parmi ses œuvres les plus emblématiques son ours biface à Marseille.",
+            "C'est d'ailleurs avec l'ours que tout commence ; Déjà enfant l'animal est un fidèle compagnon et l'artiste le voit comme un symbole de douceur et de puissance. A cette image son immense ours biface orange vif tout en arrondis.",
+            "Mais Jayet c'est d'abord un jeune homme avec des idées plein la tête. Les créations se traduisent dans différents domaines comme l'aviation ou encore l'audiovisuel. Il s'émancipe tard et se lance dans la sculpture.",
+            "L'Ours c'est un animal totem, le souvenir d'enfant à travers la peluche, une saveur avec les bonbons Haribo et une visite au musée où il décide que lui aussi il aura Son ours.",
+            "Aujourd'hui il est un artiste passionné par la transformation de la matière et travaille avec un large panel de matériaux : le bois, le métal, le béton, la pierre. Adepte de modernité il n'hésite pas à s'entourer de professionnels tels des graphistes, peintres ou spécialistes de la 3D."
         ],
-        "description_audio": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2Fbio%20bruno%20catalano.m4a?alt=media&token=3bff4c54-8275-4d25-9fce-106b0181e614",
-        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fbruno-catalano-bio2.jpg?alt=media&token=7e7dc8ca-adc1-4d8c-89a5-2883a9f0086c",
+        "description_audio": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2FVocal-pr%C3%A9sentation-Jayet.mp3?alt=media&token=09a48ddf-60d3-4d6a-a4f4-6b5ec4bcae66",
+        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fjayet.jpg?alt=media&token=1075392b-17e1-4574-b75e-941349be093e",
         "art": {
-            "id": 4
+            "id": 1
+        }
+    },
+    {
+        "id": 3,
+        "name": "Astro",
+        "description": [
+            "Grégory Teboul plus connu sous son pseudonyme Astro, est un artiste graffeur et muraliste français né en 1981 à Sarcelles en banlieue parisienne. C’est en 2000, à 17 ans, qu’il commence sa carrière d’artiste graffeur dans la banlieue nord de Paris où il réalise ses premières toiles murales. Passionné par cet art urbain il apprend en autodidacte et très vite il s'approprie cet art et le personnalise en y ajoutant sa technique et son savoir-faire, entre jeu d’ombre et de lumière, les courbes, la calligraphie, les formes dynamiques et la maîtrise des perspectives et des profondeurs qui rendent ses oeuvres reconnaissables et unique.",
+            "Spécialiste du grand format, il inscrit ses œuvres au cœur des villes du monde entier sur des murs ou d’autres supports, notamment une technique qu’il affectionne particulièrement qui est le Cellograff. Cette technique qu’il a créé en 2009 avec son ami Kanos consiste à peindre sur une surface de cellophane tendue entre deux poteaux, deux arbres, autour d’un arbre par exemple, et ainsi ne pas dégrader le mobilier urbain ou la nature. Astro est surtout connu pour ses fameux trompe l'œil saisissants, tant ses illusions d’optiques sont réussies grâce à sa technicité, que l’on peut retrouver sur des murs de Washington, Paris, Chicago, Milan, Mexico, Miami et Marseille. Incontournable du street art, il est présent sur de nombreux festivals internationaux mettant en valeur cette pratique artistique comme au Street Art Museum d’Amsterdam.",
+            "En 2016, il accomplit une année bien remplie avec de nombreux voyages comme à Loures près de Lisbonne où il peint deux façades et un bus, aux Etats-Unis notamment à Miami où il a exposé à la galerie Hausammann et à New-York plus particulièrement à Harlem, à Hambourg en Allemagne, à Mexico et en France à Aurillac pour le festival “10ème Art” et à Paris où il a marqué son empreinte à La Défense, proche du Stade de France avec une oeuvre monumentale au sol et sur le festival Ourcq Living Colors. En 2017, il participe au Loft du 34 qui a présenté pendant un mois des toiles peintes par l’artiste, ce qu’il va réitérer en 2018 et en 2019 avec deux nouvelles expositions collectives et une prestation au Loft à Paris. Entre 2018 et 2020 il va continuer de traverser la France armé de ses bombes aérosoles et continuer de voyager notamment à Turin (Italie), à Rotterdam (Pays-Bas), à Anvers et Bruxelles (Belgique), à Washington, Stockton, Boston (USA), à Papeete (Polynésie Française) et à Linköping (Suède).",
+            "C’est en 2019 dans le cadre de l’exposition collective “Urban Republik” à l’Art Five Gallery, qu’il va faire ses premiers pas dans la ville de Marseille, jusqu’en 2020 où il va participer à nouveau à une exposition collective d’Art Five Gallery, intitulée “Whatever” et également décorer des murs comme ses oeuvres “Les Docks”, “Totem” et donc “Evasion #1 & #2”."
+        ],
+        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2FAstro-10.jpg?alt=media&token=e0ec3875-8cbe-4ade-9ff6-e489ead71abf",
+        "art": {
+            "id": 2
         }
     },
     {
@@ -143,33 +159,17 @@ export const artists = [
         }
     },
     {
-        "id": 3,
-        "name": "Astro",
+        "id": 1,
+        "name": "Bruno Catalano",
         "description": [
-            "Grégory Teboul plus connu sous son pseudonyme Astro, est un artiste graffeur et muraliste français né en 1981 à Sarcelles en banlieue parisienne. C’est en 2000, à 17 ans, qu’il commence sa carrière d’artiste graffeur dans la banlieue nord de Paris où il réalise ses premières toiles murales. Passionné par cet art urbain il apprend en autodidacte et très vite il s'approprie cet art et le personnalise en y ajoutant sa technique et son savoir-faire, entre jeu d’ombre et de lumière, les courbes, la calligraphie, les formes dynamiques et la maîtrise des perspectives et des profondeurs qui rendent ses oeuvres reconnaissables et unique.",
-            "Spécialiste du grand format, il inscrit ses œuvres au cœur des villes du monde entier sur des murs ou d’autres supports, notamment une technique qu’il affectionne particulièrement qui est le Cellograff. Cette technique qu’il a créé en 2009 avec son ami Kanos consiste à peindre sur une surface de cellophane tendue entre deux poteaux, deux arbres, autour d’un arbre par exemple, et ainsi ne pas dégrader le mobilier urbain ou la nature. Astro est surtout connu pour ses fameux trompe l'œil saisissants, tant ses illusions d’optiques sont réussies grâce à sa technicité, que l’on peut retrouver sur des murs de Washington, Paris, Chicago, Milan, Mexico, Miami et Marseille. Incontournable du street art, il est présent sur de nombreux festivals internationaux mettant en valeur cette pratique artistique comme au Street Art Museum d’Amsterdam.",
-            "En 2016, il accomplit une année bien remplie avec de nombreux voyages comme à Loures près de Lisbonne où il peint deux façades et un bus, aux Etats-Unis notamment à Miami où il a exposé à la galerie Hausammann et à New-York plus particulièrement à Harlem, à Hambourg en Allemagne, à Mexico et en France à Aurillac pour le festival “10ème Art” et à Paris où il a marqué son empreinte à La Défense, proche du Stade de France avec une oeuvre monumentale au sol et sur le festival Ourcq Living Colors. En 2017, il participe au Loft du 34 qui a présenté pendant un mois des toiles peintes par l’artiste, ce qu’il va réitérer en 2018 et en 2019 avec deux nouvelles expositions collectives et une prestation au Loft à Paris. Entre 2018 et 2020 il va continuer de traverser la France armé de ses bombes aérosoles et continuer de voyager notamment à Turin (Italie), à Rotterdam (Pays-Bas), à Anvers et Bruxelles (Belgique), à Washington, Stockton, Boston (USA), à Papeete (Polynésie Française) et à Linköping (Suède).",
-            "C’est en 2019 dans le cadre de l’exposition collective “Urban Republik” à l’Art Five Gallery, qu’il va faire ses premiers pas dans la ville de Marseille, jusqu’en 2020 où il va participer à nouveau à une exposition collective d’Art Five Gallery, intitulée “Whatever” et également décorer des murs comme ses oeuvres “Les Docks”, “Totem” et donc “Evasion #1 & #2”."
+            "Bruno Catalano est un artiste sculpteur français né à Khouribga en 1960. En 1970 sa famille quitte le Maroc pour aller s’installer en France où il travaille en tant que marin pour la société nationale maritime Corse-Méditerranée durant 4 ans. C’est à travers cette expérience qu’il trouvera par la suite ses inspirations artistiques.",
+            "Il s’initie ensuite à la sculpture à Marseille en 1981 où il pratique une formation de modelage et de dessin. Puis ouvre son atelier en 1985 en y aménageant un four afin de cuire ses premières figures en argile. Bruno Catalano réalise de grandes sculptures en bronze assez conventionnelles qui se transforment et deviennent de plus en plus expressives au fil de ses créations. En 2004 il créer une faille involontaire dans l’une de ses sculptures représentant Cyrano. Cette erreur lui donne l’idée de retirer la poitrine du personnage et d’y laisser un vide.",
+            "S’ensuit alors une nouvelle méthode de création artistique. Il réalise ensuite toute une série de personnes marquées par des failles. En 2013 il expose à l’occasion de l’année de la Capitale Européenne de la Culture à Marseille des sculptures de personnage à taille humaine sur le port de la ville. Dont l’œuvre « Bleu de Chine ». Ses sculptures représentant des manques, des erreurs, des failles font aujourd’hui régulièrement l’objet d’expositions dans le monde entier."
         ],
-        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Evasion%2FAstro-10.jpg?alt=media&token=e0ec3875-8cbe-4ade-9ff6-e489ead71abf",
+        "description_audio": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Bleu%20De%20Chine%2Fbio%20bruno%20catalano.m4a?alt=media&token=3bff4c54-8275-4d25-9fce-106b0181e614",
+        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fbruno-catalano-bio2.jpg?alt=media&token=7e7dc8ca-adc1-4d8c-89a5-2883a9f0086c",
         "art": {
-            "id": 2
-        }
-    },
-    {
-        "id": 4,
-        "name": "Jayet",
-        "description": [
-            "Jayet est un artiste plasticien de style pop-art. Parmi ses œuvres les plus emblématiques son ours biface à Marseille.",
-            "C'est d'ailleurs avec l'ours que tout commence ; Déjà enfant l'animal est un fidèle compagnon et l'artiste le voit comme un symbole de douceur et de puissance. A cette image son immense ours biface orange vif tout en arrondis.",
-            "Mais Jayet c'est d'abord un jeune homme avec des idées plein la tête. Les créations se traduisent dans différents domaines comme l'aviation ou encore l'audiovisuel. Il s'émancipe tard et se lance dans la sculpture.",
-            "L'Ours c'est un animal totem, le souvenir d'enfant à travers la peluche, une saveur avec les bonbons Haribo et une visite au musée où il décide que lui aussi il aura Son ours.",
-            "Aujourd'hui il est un artiste passionné par la transformation de la matière et travaille avec un large panel de matériaux : le bois, le métal, le béton, la pierre. Adepte de modernité il n'hésite pas à s'entourer de professionnels tels des graphistes, peintres ou spécialistes de la 3D."
-        ],
-        "description_audio": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2FVocal-pr%C3%A9sentation-Jayet.mp3?alt=media&token=09a48ddf-60d3-4d6a-a4f4-6b5ec4bcae66",
-        "image_url": "https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Ours%20Biface%2Fjayet.jpg?alt=media&token=1075392b-17e1-4574-b75e-941349be093e",
-        "art": {
-            "id": 1
+            "id": 4
         }
     }
 ]
