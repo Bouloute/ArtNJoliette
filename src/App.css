@@ -2,15 +2,23 @@
     text-align: center;
     color: #38B6FF;
     text-transform: uppercase;
-    font-family: Gagalin-Regular;
+    /*font-family: Gagalin-Regular;*
+    margin: 0;*/
+    transform: translate(0px, -130px);
+    font-size: 50px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .title {
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
 }
 
 .title img {
-    width: 80%;
+    height: 160px;
+    opacity: 50%;
     display: block;
     margin: auto;
 }
