@@ -86,5 +86,7 @@ a {
 }
 
 h2 {
-    text-align: center;
+    text-align: justify;
+    
+    margin: 20px;
 }

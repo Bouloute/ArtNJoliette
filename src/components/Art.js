@@ -3,7 +3,7 @@ import {connect} from 'react-redux'
 import {findArtById} from '../actions/artActions'
 
 import MyCarousel from './MyCarousel'
-
+//TODO delete this file
 class Art extends Component {
     constructor(props) {
         super(props);
