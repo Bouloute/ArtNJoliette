@@ -42,3 +42,8 @@
 .right .button .button-title {
     right: 20%
 }
+
+.button-title h2 {
+    text-align: center;
+    margin: 20px;
+}

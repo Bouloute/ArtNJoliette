@@ -24,9 +24,8 @@ class Artist extends Component {
                         <img style={{float: "left"}} src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/%E2%80%94Pngtree%E2%80%94brush%20texture_5054128.png?alt=media&token=fb55881c-e832-4e2d-abf0-81dd2c03a678" alt=""/>
                     </div>
 
-                    <h2>{this.props.name}</h2>
+                    <h2>{this.props.name} {!!this.props.artist?(<a href={"/artist/" + this.props.artist.id}>par {this.props.artist.name}</a>):null}</h2>
                     
-                    {!!this.props.artist?(<div className="description-card-see"> par <a href={"/artist/" + this.props.artist.id}>{this.props.artist.name}</a></div>):null}
                     
                     <div className="description-card-sum">
                         {!!this.props.description?this.props.description.map(d => <p>{d}</p> ):null}
