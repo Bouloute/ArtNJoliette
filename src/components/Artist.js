@@ -14,34 +14,33 @@ class Artist extends Component {
 
     render() { 
         return (
-            <div>
-                <div className="description-card">
-                    <div className="description-card-cell">
-                        <div className="description-card-content">
-                            <div className="imgBoxArt">
-                                <img style={{float: "left"}} src={this.props.image_url} alt={this.state.name} />
-                            </div>
-                            <div className="imgBoxArt2">
-                                <img style={{float: "left"}} src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/%E2%80%94Pngtree%E2%80%94brush%20texture_5054128.png?alt=media&token=fb55881c-e832-4e2d-abf0-81dd2c03a678" alt=""/>
-                            </div>
-
-                            <h2>{this.props.name}</h2>
-                            
-                            {!!this.props.artist?(<div className="description-card-see"> par <a href={"/artist/" + this.props.artist.id}>{this.props.artist.name}</a></div>):null}
-                            
-                            <div className="description-card-sum">
-                                {!!this.props.description?this.props.description.map(d => <p>{d}</p> ):null}
-                            </div>
-                            {!!this.props.description_audio?<audio
-                                src={this.props.description_audio}
-                                className="artist"
-                                controls
-                            />:null}
-                        </div>
+        <div>
+            <div className="description-card">
+                <div className="description-card-content">
+                    <div className="imgBoxArt">
+                        <img style={{float: "left"}} src={this.props.image_url} alt={this.state.name} />
                     </div>
+                    <div className="imgBoxArt2">
+                        <img style={{float: "left"}} src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/%E2%80%94Pngtree%E2%80%94brush%20texture_5054128.png?alt=media&token=fb55881c-e832-4e2d-abf0-81dd2c03a678" alt=""/>
+                    </div>
+
+                    <h2>{this.props.name}</h2>
+                    
+                    {!!this.props.artist?(<div className="description-card-see"> par <a href={"/artist/" + this.props.artist.id}>{this.props.artist.name}</a></div>):null}
+                    
+                    <div className="description-card-sum">
+                        {!!this.props.description?this.props.description.map(d => <p>{d}</p> ):null}
+                    </div>
+                    {!!this.props.description_audio?<audio
+                        src={this.props.description_audio}
+                        className="artist"
+                        controls
+                    />:null}
                 </div>
+
                 <a href='https://pngtree.com/so/brush-clipart'>brush clipart png from pngtree.com</a>
             </div>
+        </div>
         );
     }
 }

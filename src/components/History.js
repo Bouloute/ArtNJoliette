@@ -7,12 +7,12 @@ class History extends Component {
             <div>
                 <h2>Brève histoire du quartier de La Joliette</h2>
                 <div className="description-card-content">
-                <div className="imgBox1">
+                    <div className="imgBox1">
                         <img style={{float: "left"}} src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Histoire%2FCathedrale%20et%20quai%20de%20la%20Joliette%202020.jpg?alt=media&token=b76af183-dba4-4443-987a-ae4d82f6de33" alt=""/>
                     </div>
                     <div className="imgBox2">
                         <img style={{float: "left"}} src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/Histoire%2FRound%20Brush.png?alt=media&token=bc758a21-7807-4c48-85f1-b635a447ccdd" alt=""/>
-                </div>
+                    </div>
         {/*         <audio src="https://firebasestorage.googleapis.com/v0/b/art-n-joliette.appspot.com/o/vocal%20histoire%20la%20Joliette.mp3?alt=media&token=752f9969-b031-468f-a365-6eaf5f8c7941" controls/>
 */}
                     <div className="description-card-sum">
