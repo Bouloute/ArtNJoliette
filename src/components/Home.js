@@ -34,7 +34,8 @@ const Home = () => {
             </div>
             
             <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        
+            <a href='https://pngtree.com/so/brush-clipart'>brush clipart png from pngtree.com</a>
+
         </div>
     );
 };

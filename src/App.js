@@ -11,7 +11,6 @@ import Home from "./components/Home"
 import buttonContainer from "./containers/buttonContainer";
 import artistsButtonContainer from "./containers/artistsButtonContainer";
 import Quizz from "./components/Quizz";
-import Art from "./components/Art";
 import Artist from "./components/Artist";
 import Activity from "./components/Activity";
 import History from "./components/History";

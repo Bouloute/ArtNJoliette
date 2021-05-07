@@ -37,7 +37,6 @@ class Artist extends Component {
                     />:null}
                 </div>
 
-                <a href='https://pngtree.com/so/brush-clipart'>brush clipart png from pngtree.com</a>
             </div>
         </div>
         );
