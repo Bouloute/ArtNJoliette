@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux'
 import {findArtById} from '../actions/artActions'
 
-import Puzzle from 'react-image-puzzle';
+import Puzzle from 'react-image-puzzle-touch';
 import PatternLock from "react-pattern-lock";
 import MyCarousel from './MyCarousel';
 
@@ -13,11 +13,6 @@ class Quizz extends Component {
             drawn_path: []
         }
         this.props.findArtById(this.props.match.params.id)
-    }
-    
-    componentDidCatch(error, info) {
-        console.log("labyrinth failed again")
-        //window.location.reload();
     }
     
     handleChange = (event) => {
